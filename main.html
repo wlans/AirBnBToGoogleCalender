@@ -47,10 +47,10 @@
     <meta charset="utf-8">
 
     <!--[if IE 8]>
-      <link href="https://a0.muscache.com/airbnb/static/packages/common_o2.1_ie8-b50bbc7b738139aed57a440f42d5b78d.css" media="all" rel="stylesheet" type="text/css" />
+      <link href="https://a2.muscache.com/airbnb/static/packages/common_o2.1_ie8-b8eebe073087f5c1631a6b11cd7eea9d.css" media="all" rel="stylesheet" type="text/css" />
     <![endif]-->
     <!--[if !(IE 8)]><!-->
-      <link href="https://a0.muscache.com/airbnb/static/packages/common_o2.1-21c0191cef20d00cfca531367874a148.css" media="all" rel="stylesheet" type="text/css" />
+      <link href="https://a1.muscache.com/airbnb/static/packages/common_o2.1-79e37e4c09d4ea81f8044fbcac6f908d.css" media="all" rel="stylesheet" type="text/css" />
     <!--<![endif]-->
 
     <!--[if lt IE 9]>
@@ -190,10 +190,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-    <meta content="{&quot;flags&quot;:{&quot;name&quot;:&quot;flags&quot;,&quot;value&quot;:{&quot;can_see_community&quot;:2,&quot;og_publish&quot;:16,&quot;has_wishlisted&quot;:32,&quot;update_cached&quot;:64,&quot;revert_to_admin&quot;:128,&quot;facebook_connected&quot;:256,&quot;erf_override&quot;:512,&quot;has_search&quot;:1024,&quot;search_help_dropdown&quot;:2048,&quot;has_dates&quot;:4096,&quot;can_see_notifications_tooltip&quot;:8192,&quot;can_send_profile_messages&quot;:32768,&quot;just_logged_in&quot;:65536,&quot;has_been_host&quot;:131072,&quot;should_drop_pellet&quot;:262144,&quot;field_guide_preload&quot;:524288,&quot;is_active_host&quot;:1048576,&quot;is_business_travel_manager&quot;:2097152,&quot;is_vr_platform_powered_host&quot;:67108864,&quot;can_see_meetups&quot;:134217728,&quot;should_drop_sift_pellet&quot;:268435456,&quot;can_see_groups&quot;:536870912,&quot;has_verified_phone&quot;:1073741824,&quot;has_profile_pic&quot;:2147483648}},&quot;roles&quot;:{&quot;name&quot;:&quot;roles&quot;,&quot;value&quot;:{&quot;is_content_manager&quot;:1048576,&quot;is_stats_admin&quot;:16777216}},&quot;user_attributes&quot;:{&quot;name&quot;:&quot;_user_attributes&quot;}}" id="_bootstrap-user-attr-cookies" />
-<meta content="{&quot;tld_country&quot;:&quot;US&quot;,&quot;use_business_travel_header&quot;:false}" id="_bootstrap-header-init" />
-<meta content="{&quot;field_guide3&quot;:{&quot;subject&quot;:&quot;bev&quot;,&quot;buckets&quot;:2,&quot;percent_exposed&quot;:100,&quot;treatments&quot;:[{&quot;name&quot;:&quot;baseline&quot;,&quot;buckets&quot;:null},{&quot;name&quot;:&quot;show_guide&quot;,&quot;buckets&quot;:null}]},&quot;the_new_header_take_3&quot;:{&quot;subject&quot;:&quot;bev&quot;,&quot;buckets&quot;:2,&quot;percent_exposed&quot;:100,&quot;treatments&quot;:[{&quot;name&quot;:&quot;new_header&quot;,&quot;buckets&quot;:null},{&quot;name&quot;:&quot;old_header&quot;,&quot;buckets&quot;:null}]},&quot;global_recently_viewed&quot;:{&quot;subject&quot;:&quot;bev&quot;,&quot;buckets&quot;:2,&quot;percent_exposed&quot;:100,&quot;treatments&quot;:[{&quot;name&quot;:&quot;control&quot;,&quot;buckets&quot;:null},{&quot;name&quot;:&quot;global_recently_viewed&quot;,&quot;buckets&quot;:null}]},&quot;p1_search_autocomplete_bounds&quot;:{&quot;subject&quot;:&quot;bev&quot;,&quot;buckets&quot;:2,&quot;percent_exposed&quot;:100,&quot;treatments&quot;:[{&quot;name&quot;:&quot;control&quot;,&quot;buckets&quot;:null},{&quot;name&quot;:&quot;experiment&quot;,&quot;buckets&quot;:null}]},&quot;ipad_download_interstitial_modal&quot;:{&quot;subject&quot;:&quot;bev&quot;,&quot;buckets&quot;:2,&quot;percent_exposed&quot;:100,&quot;treatments&quot;:[{&quot;name&quot;:&quot;control&quot;,&quot;buckets&quot;:null},{&quot;name&quot;:&quot;show_ipad_modal&quot;,&quot;buckets&quot;:null}]}}" id="_bootstrap-erf" />
-
 
     <div class="smart-banner" aria-hidden="true" role="banner">
   <a href="#" class="icon icon-remove icon-size-1 pull-left link-reset banner-close">
@@ -248,8 +244,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 
-    <div id="header"
-     class="airbnb-header new ">
+    <div id="header" class="airbnb-header new">
 
     <header class="header--sm show-sm" aria-hidden="true" role="banner">
   <a href="#"
@@ -599,84 +594,79 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 
 
-  <div id="header-help-menu">
+  
+<div id="header-help-menu">
   <div class="comp pull-right help-trigger-wrapper no-border background-light-gray ">
     <a class="hdr-btn help-toggle link-reset"
+       data-prevent-default
        href="/help">
-    Help
+      <span class="margin-right--tiny">Help</span>
+      <i class="icon-chevron-down-alt hide-md icon-chevron-down-alt-gray"></i>
     </a>
-    <div class="panel tooltip tooltip-top-right drop-down-menu help-dropdown">
-      <ul class="menu-list list-layout">
-        <li class="menu-list__item-block loading"></li>
-        <li class="search-bar--help hide">
-          <form action="/help/search" class="search-form--help menu-list__item-block">
-            <div class="input-addon">
-              <input type="text"
-                     placeholder="Search the help center"
-                     autocomplete="off"
-                     name="q"
-                     class="input-stem" />
-              <input type="hidden" name="search_from" value="hdr" />
-              <i class="btn btn-primary icon icon-search input-suffix form-submit--help"></i>
-            </div>
-          </form>
-        </li>
-        <li class="menu-list__item">
-          <a href="/help" class="visit-helpcenter-cta help-center-link menu-list__item-block hide">
-            Visit the Help Center &#187;
-          </a>
-        </li>
-        <li>
-          <a href="/help" class="all_faqs link-reset menu-list__item-block hide">
-            See all FAQs
-          </a>
-        </li>
-      </ul>
-    </div>
   </div>
 </div>
 
 
-  
-<div class="comp pull-right show-login">
-  <a class="no-crawl hdr-btn link-reset header-avatar-trigger"
-     rel="nofollow"
+  <div class="comp-on-right">
+    
+<div class="comp pull-right show-host">
+  <a class="no-crawl hdr-btn link-reset "
      href="#"
-     data-href="/dashboard"
-     data-href-host="/trips">
-    <div class="media-photo media-round normal-line-height user-profile-image margin-right--tiny"></div>
-    <span class="value_name margin-right--tiny hide-md"></span>
+     data-prevent-default
+     rel="nofollow"
+     data-href="/dashboard">
+    <i class="icon icon-host-home-alt h3 margin-right--small icon-pos--lower icon-gray"></i>
+    <span class="hide-md margin-right--tiny">
+      Host
+    </span>
     <i class="icon-chevron-down-alt hide-md icon-chevron-down-alt-gray"></i>
   </a>
-  <div class="panel tooltip tooltip-top-right drop-down-menu avatar-tooltip--new">
+
+  <div class="panel tooltip tooltip-top-right drop-down-menu host-tooltip--new">
     <ul class="menu-list list-layout">
         <li class="menu-list__item">
-            <a href="#" class="no-crawl menu-list__item-block link-reset" data-href="/trips">Your Trips</a>
+            <a href="#" class="no-crawl menu-list__item-block link-reset" data-href="/dashboard">Dashboard</a>
         </li>
         <li class="menu-list__item">
-            <a href="#" class="no-crawl menu-list__item-block link-reset" data-href="/wishlists/popular">Wish Lists</a>
+            <a href="#" class="no-crawl menu-list__item-block link-reset" data-href="/rooms">Manage Listings</a>
         </li>
         <li class="menu-list__item">
-            <a href="#" class="no-crawl menu-list__item-block link-reset" data-href="/users/edit">Edit Profile</a>
+            <a href="/rooms/new" class="menu-list__item-block link-reset">List Your Space</a>
         </li>
         <li class="menu-list__item">
-            <a href="/invite" class="menu-list__item-block link-reset">Invite Friends</a>
+            <a href="#" class="no-crawl menu-list__item-block link-reset" data-href="/my_reservations">Your Reservations</a>
         </li>
         <li class="menu-list__item">
-            <a href="#" class="no-crawl menu-list__item-block link-reset" data-href="/users/notifications">Account Settings</a>
+            <a href="#" class="no-crawl menu-list__item-block link-reset" data-href="/users/reviews">Reviews</a>
         </li>
         <li class="menu-list__item">
-            <a href="#" class="no-crawl menu-list__item-block link-reset" data-href="/logout">Log Out</a>
+            <a href="#" class="no-crawl menu-list__item-block link-reset" data-href="/groups">Groups</a>
+        </li>
+        <li class="menu-list__item">
+            <a href="/hospitality" class="menu-list__item-block link-reset">Hospitality</a>
         </li>
     </ul>
   </div>
 </div>
 
+    
+<div class="comp pull-right hide-host">
+  <a class="hdr-btn link-reset "
+     href="/rooms/new">
+    <i class="icon icon-host-home-alt h3 margin-right--small icon-pos--lower icon-gray"></i>
+    <span class="hide-md margin-right--tiny">
+      Become a Host
+    </span>
+  </a>
+</div>
+
+  </div>
 
   
 <div class="comp pull-right show-login">
   <a class="no-crawl hdr-btn link-reset js-inbox-comp "
      href="#"
+     data-prevent-default
      data-href="/inbox"
      rel="nofollow">
     <div class="inbox-icon-container text-center">
@@ -690,6 +680,46 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="tooltip tooltip-top-right panel drop-down-menu notifications-dropdown hide">
   </div>
 
+</div>
+
+
+  
+<div class="comp pull-right show-login">
+  <a class="no-crawl hdr-btn link-reset header-avatar-trigger"
+     data-prevent-default
+     rel="nofollow"
+     href="#"
+     data-href="/dashboard"
+     data-href-host="/trips">
+    <div class="media-photo media-round normal-line-height user-profile-image margin-right--tiny"></div>
+    <span class="value_name margin-right--tiny hide-md"></span>
+    <i class="icon-chevron-down-alt hide-md icon-chevron-down-alt-gray"></i>
+  </a>
+  <div class="panel tooltip tooltip-top-right drop-down-menu avatar-tooltip--new">
+    <ul class="menu-list list-layout">
+        <li class="menu-list__item ">
+            <a href="#" class="no-crawl menu-list__item-block link-reset" data-href="/trips">Your Trips</a>
+        </li>
+        <li class="menu-list__item ">
+            <a href="#" class="no-crawl menu-list__item-block link-reset" data-href="/wishlists/popular">Wish Lists</a>
+        </li>
+        <li class="menu-list__item ">
+            <a href="#" class="no-crawl menu-list__item-block link-reset" data-href="/users/edit">Edit Profile</a>
+        </li>
+        <li class="menu-list__item ">
+            <a href="/invite" class="menu-list__item-block link-reset">Invite Friends</a>
+        </li>
+        <li class="menu-list__item ">
+            <a href="#" class="no-crawl menu-list__item-block link-reset" data-href="/users/notifications">Account Settings</a>
+        </li>
+        <li class="menu-list__item business-travel hide">
+            <a href="#" class="no-crawl menu-list__item-block link-reset" data-href="/business">Business Travel</a>
+        </li>
+        <li class="menu-list__item ">
+            <a href="#" class="no-crawl menu-list__item-block link-reset" data-href="/logout">Log Out</a>
+        </li>
+    </ul>
+  </div>
 </div>
 
 
@@ -711,65 +741,67 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 
-  
-<div class="comp pull-right">
-  <div>
-    <a class="no-crawl hdr-btn link-reset  show-host"
-       href="#"
-       rel="nofollow"
-       data-href="/dashboard">
-      <i class="icon icon-host-home-alt h3 margin-right--small icon-pos--lower icon-gray"></i>
-      <span class="hide-md margin-right--tiny">
-        Host
-      </span>
-      <i class="icon-chevron-down-alt hide-md icon-chevron-down-alt-gray"></i>
-    </a>
-    <a class="hdr-btn link-reset  hide-host"
-       href="/rooms/new">
-      <i class="icon icon-host-home-alt h3 margin-right--small icon-pos--lower icon-gray"></i>
-      <span class="hide-md margin-right--tiny">
-        Become a Host
-      </span>
-      <i class="icon-chevron-down-alt hide-md icon-chevron-down-alt-gray"></i>
-    </a>
-  </div>
+  <div class="comp-on-left">
+    
+<div class="comp pull-right show-host">
+  <a class="no-crawl hdr-btn link-reset "
+     href="#"
+     data-prevent-default
+     rel="nofollow"
+     data-href="/dashboard">
+    <i class="icon icon-host-home-alt h3 margin-right--small icon-pos--lower icon-gray"></i>
+    <span class="hide-md margin-right--tiny">
+      Host
+    </span>
+    <i class="icon-chevron-down-alt hide-md icon-chevron-down-alt-gray"></i>
+  </a>
 
   <div class="panel tooltip tooltip-top-right drop-down-menu host-tooltip--new">
     <ul class="menu-list list-layout">
-        <li class="menu-list__item show-host">
+        <li class="menu-list__item">
             <a href="#" class="no-crawl menu-list__item-block link-reset" data-href="/dashboard">Dashboard</a>
         </li>
-        <li class="menu-list__item hide-host">
-            <a href="/host" class="menu-list__item-block link-reset">Why Host</a>
-        </li>
-        <li class="menu-list__item list-your-space-btn">
-            <a href="/rooms/new" class="menu-list__item-block link-reset">List Your Space</a>
-        </li>
-        <li class="menu-list__item show-host">
+        <li class="menu-list__item">
             <a href="#" class="no-crawl menu-list__item-block link-reset" data-href="/rooms">Manage Listings</a>
         </li>
-        <li class="menu-list__item show-host">
+        <li class="menu-list__item">
+            <a href="/rooms/new" class="menu-list__item-block link-reset">List Your Space</a>
+        </li>
+        <li class="menu-list__item">
             <a href="#" class="no-crawl menu-list__item-block link-reset" data-href="/my_reservations">Your Reservations</a>
         </li>
-        <li class="menu-list__item show-host">
+        <li class="menu-list__item">
             <a href="#" class="no-crawl menu-list__item-block link-reset" data-href="/users/reviews">Reviews</a>
         </li>
-        <li class="menu-list__item show-host">
+        <li class="menu-list__item">
             <a href="#" class="no-crawl menu-list__item-block link-reset" data-href="/groups">Groups</a>
         </li>
-        <li class="menu-list__item ">
+        <li class="menu-list__item">
             <a href="/hospitality" class="menu-list__item-block link-reset">Hospitality</a>
         </li>
     </ul>
   </div>
 </div>
 
+    
+<div class="comp pull-right hide-host">
+  <a class="hdr-btn link-reset "
+     href="/rooms/new">
+    <i class="icon icon-host-home-alt h3 margin-right--small icon-pos--lower icon-gray"></i>
+    <span class="hide-md margin-right--tiny">
+      Become a Host
+    </span>
+  </a>
+</div>
+
+  </div>
 
   
 <div class="comp pull-right hide" data-behavior="recently-viewed__container">
   <div>
     <a class="no-crawl hdr-btn link-reset "
        href="#"
+       data-prevent-default
        data-href="/history#docked-filters"
        data-behavior="recently-viewed__trigger"
     >
@@ -801,41 +833,47 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-    <script src="https://a1.muscache.com/airbnb/static/packages/header_cookie-768c0ca5c178ed278b99aef17e7bd7e0.js" type="text/javascript"></script>
+    <!-- This has to be here as field_guide4 and china_header_typeahead are used in init() -->
+<meta content="{&quot;flags&quot;:{&quot;name&quot;:&quot;flags&quot;,&quot;value&quot;:{&quot;can_see_community&quot;:2,&quot;og_publish&quot;:16,&quot;has_wishlisted&quot;:32,&quot;update_cached&quot;:64,&quot;revert_to_admin&quot;:128,&quot;facebook_connected&quot;:256,&quot;erf_override&quot;:512,&quot;has_search&quot;:1024,&quot;search_help_dropdown&quot;:2048,&quot;has_dates&quot;:4096,&quot;can_see_notifications_tooltip&quot;:8192,&quot;can_send_profile_messages&quot;:32768,&quot;just_logged_in&quot;:65536,&quot;has_been_host&quot;:131072,&quot;should_drop_pellet&quot;:262144,&quot;field_guide_preload&quot;:524288,&quot;is_active_host&quot;:1048576,&quot;is_business_travel_manager&quot;:2097152,&quot;can_see_availability_rules&quot;:33554432,&quot;is_vr_platform_powered_host&quot;:67108864,&quot;can_see_meetups&quot;:134217728,&quot;should_drop_sift_pellet&quot;:268435456,&quot;can_see_groups&quot;:536870912,&quot;has_verified_phone&quot;:1073741824,&quot;has_profile_pic&quot;:2147483648}},&quot;roles&quot;:{&quot;name&quot;:&quot;roles&quot;,&quot;value&quot;:{&quot;is_content_manager&quot;:1048576,&quot;is_stats_admin&quot;:16777216}},&quot;user_attributes&quot;:{&quot;name&quot;:&quot;_user_attributes&quot;}}" id="_bootstrap-user-attr-cookies" />
+<meta content="{&quot;the_new_header_take_4&quot;:{&quot;subject&quot;:&quot;bev&quot;,&quot;buckets&quot;:3,&quot;percent_exposed&quot;:100,&quot;treatments&quot;:[{&quot;name&quot;:&quot;new_header_lys_on_left&quot;,&quot;buckets&quot;:null},{&quot;name&quot;:&quot;new_header_lys_on_right&quot;,&quot;buckets&quot;:null},{&quot;name&quot;:&quot;old_header&quot;,&quot;buckets&quot;:null}]},&quot;global_recently_viewed&quot;:{&quot;subject&quot;:&quot;bev&quot;,&quot;buckets&quot;:2,&quot;percent_exposed&quot;:100,&quot;treatments&quot;:[{&quot;name&quot;:&quot;control&quot;,&quot;buckets&quot;:null},{&quot;name&quot;:&quot;global_recently_viewed&quot;,&quot;buckets&quot;:null}]},&quot;p1_search_autocomplete_bounds&quot;:{&quot;subject&quot;:&quot;bev&quot;,&quot;buckets&quot;:2,&quot;percent_exposed&quot;:100,&quot;treatments&quot;:[{&quot;name&quot;:&quot;control&quot;,&quot;buckets&quot;:null},{&quot;name&quot;:&quot;experiment&quot;,&quot;buckets&quot;:null}]},&quot;ipad_download_interstitial_modal_take_2&quot;:{&quot;subject&quot;:&quot;bev&quot;,&quot;buckets&quot;:2,&quot;percent_exposed&quot;:100,&quot;treatments&quot;:[{&quot;name&quot;:&quot;control&quot;,&quot;buckets&quot;:null},{&quot;name&quot;:&quot;show_ipad_modal&quot;,&quot;buckets&quot;:null}]},&quot;china_header_typeahead&quot;:{&quot;subject&quot;:&quot;bev&quot;,&quot;buckets&quot;:2,&quot;percent_exposed&quot;:100,&quot;treatments&quot;:[{&quot;name&quot;:&quot;control&quot;,&quot;buckets&quot;:null},{&quot;name&quot;:&quot;typeahead&quot;,&quot;buckets&quot;:null}]}}" id="_bootstrap-erf" />
+<script src="https://a2.muscache.com/airbnb/static/packages/header_cookie-ed18f63f212d3be1f78b58964982842c.js" type="text/javascript"></script>
+
 
     <script>
 
       (function () {
         var initData = BootstrapData.get('header-init');
-        var country = initData ? initData.tld_country : "US";
         var headerContainer = document.getElementById('header');
         var newHeader = document.getElementById('new-header');
         var oldHeader = document.getElementById('old-header');
-        var useBusinessTravelHeader = initData ? initData.use_business_travel_header : false;
+        var usingBusinessTravelHeader = !!(initData && initData.use_business_travel_header);
 
-        var useNewHeader = function () {
+        var useNewHeaderLeft = function () {
           J(document.body).addClass('with-new-header');
           headerContainer.removeChild(oldHeader);
+          J(headerContainer).addClass('lys-on-left');
+        };
+        var useNewHeaderRight = function () {
+          J(document.body).addClass('with-new-header');
+          headerContainer.removeChild(oldHeader);
+          J(headerContainer).addClass('lys-on-right');
         };
         var useOldHeader = function () {
           headerContainer.removeChild(newHeader);
         };
 
         // Don't affect header experiment if business header is enabled.
-        if (useBusinessTravelHeader) { return };
+        if (usingBusinessTravelHeader) { return };
 
-        if (country === "IT" || country === "TW" || country === "CA") {
-          Airbnb.ERF.deliverExperiment(
-            'the_new_header_take_3',
-            {
-              new_header: useNewHeader,
-              old_header: useOldHeader,
-              treatment_unknown: useOldHeader
-            }
-          );
-        } else {
-          useOldHeader();
-        }
+        Airbnb.ERF.deliverExperiment(
+          'the_new_header_take_4',
+          {
+            new_header_lys_on_left: useNewHeaderLeft,
+            new_header_lys_on_right: useNewHeaderRight,
+            old_header: useOldHeader,
+            treatment_unknown: useOldHeader
+          }
+        );
       })();
 </script>
       <div class="flash-container"></div>
@@ -879,7 +917,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <li>
     <a href="/my_reservations" aria-selected="true" class="sidenav-item">Your Reservations</a>
   </li>
-  <li>
+    <a href="/calendar/index" class="sidenav-item">
+      View multi-calendar
+</a>  <li>
   <a href="/hosting/requirements" aria-selected="false" class="sidenav-item">Reservation Requirements</a>
   </li>
 </ul>
@@ -906,7 +946,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="row">
           <div class="col-12">
             <div class="pull-right">
-              <div class="pagination pagination-responsive" include_current_page="true"><ul class="list-unstyled"> <li class="active"><a rel="start" href="/my_reservations?all=1&amp;page=1">1</a></li> <li><a rel="next" href="/my_reservations?all=1&amp;page=2">2</a></li> <li class="next next_page"><a rel="next" href="/my_reservations?all=1&amp;page=2"><span class="screen-reader-only">Next</span><i class="icon icon-caret-right"></i></a></li></ul></div>
+              <div class="pagination pagination-responsive" include_current_page="true"><ul class="list-unstyled"> <li class="active"><a rel="start" href="/my_reservations?all=1&amp;page=1">1</a></li> <li><a rel="next" href="/my_reservations?all=1&amp;page=2">2</a></li> <li><a href="/my_reservations?all=1&amp;page=3">3</a></li> <li class="next next_page"><a rel="next" href="/my_reservations?all=1&amp;page=2"><span class="screen-reader-only">Next</span><i class="icon icon-caret-right"></i></a></li></ul></div>
             </div>
           </div>
         </div>
@@ -919,30 +959,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <th>Details</th>
       </tr>
           <tr class='reservation'
-  data-reservation-id='77967767'
-  data-reservation-code='T83W9B'
+  data-reservation-id='71952382'
+  data-reservation-code='X8Z5HQ'
   >
   <td>
-    <span class="label label-orange label-warning">
-      Pending
+    <span class="label label-gray label-info">
+      Canceled
     </span>
-      <div class="countdown text-lead"
-        data-year="2015"
-        data-month="5"
-        data-day="21"
-        data-hour="17"
-        data-min="45"
-        data-sec="39">
-      </div>
-      <a href="/z/a/T83W9B" class="btn btn-primary btn-small row-space-top-1 row-space-2">Respond now</a>
   </td>
 
   <td>
-    Jul 17 - 19, 2015
+    Aug 1 - 4, 2015
     <br>
-    <a href="https://www.airbnb.com/rooms/827834" locale="en">Bucktown Apartment at 6 Corners</a>
+    <a href="https://www.airbnb.com/rooms/1615246" locale="en">Futon Steps Away From Six Corners</a>
     <br>
-        1616 N Damen Ave 2nd Floor
+        1619 N Damen Ave 3F
         <br>
         Chicago, IL 60647
         <br>
@@ -950,22 +981,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <td>
     <div class="media va-container">
-<a href="/users/show/21516294" class="pull-left media-photo media-round">        <img alt="Sara" height="50" src="https://a1.muscache.com/ac/users/21516294/profile_pic/1411126842/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Sara" width="50" />
+<a href="/users/show/11204595" class="pull-left media-photo media-round">        <img alt="Sou" height="50" src="https://a1.muscache.com/ac/users/11204595/profile_pic/1389463006/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Sou" width="50" />
 </a>      <div class="va-top">
-        <a href="/users/show/21516294" class="text-normal">Sara L</a>
+        <a href="/users/show/11204595" class="text-normal">Sou M</a>
         <br />
       </div>
     </div>
   </td>
 
   <td>
-      $298
+      $286
       total
 
 
     <ul class="list-unstyled">
       <li>
-        <a href="/messaging/qt_with/21516294">Message History</a>
+        <a href="/messaging/qt_with/11204595">Message History</a>
       </li>
     </ul>
 
@@ -973,111 +1004,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </tr>
 
           <tr class='reservation'
-  data-reservation-id='75224207'
-  data-reservation-code='TDYX9F'
+  data-reservation-id='67942646'
+  data-reservation-code='A5ZEAS'
   >
   <td>
-    <span class="label label-gray label-info">
-      Expired
-    </span>
-  </td>
-
-  <td>
-    Jul 31 - Aug 2, 2015
-    <br>
-    <a href="https://www.airbnb.com/rooms/827834" locale="en">Bucktown Apartment at 6 Corners</a>
-    <br>
-        1616 N Damen Ave 2nd Floor
-        <br>
-        Chicago, IL 60647
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/35336788" class="pull-left media-photo media-round">        <img alt="Katie" height="50" src="https://a0.muscache.com/ac/users/35336788/profile_pic/1433814009/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Katie" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/35336788" class="text-normal">Katie S</a>
-        <br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $178
-      total
-
-
-    <ul class="list-unstyled">
-      <li>
-        <a href="/messaging/qt_with/35336788">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='70305633'
-  data-reservation-code='EF5RKC'
-  >
-  <td>
-    <span class="label label-gray label-info">
-      Declined
-    </span>
-  </td>
-
-  <td>
-    Jul 26 - 31, 2015
-    <br>
-    <a href="https://www.airbnb.com/rooms/827834" locale="en">Bucktown Apartment at 6 Corners</a>
-    <br>
-        1616 N Damen Ave 2nd Floor
-        <br>
-        Chicago, IL 60647
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/33587862" class="pull-left media-photo media-round">        <img alt="Nicole" height="50" src="https://a2.muscache.com/defaults/user_pic-50x50.png?v=2" title="Nicole" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/33587862" class="text-normal">Nicole P</a>
-        <br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $745
-      total
-
-
-    <ul class="list-unstyled">
-      <li>
-        <a href="/messaging/qt_with/33587862">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='74937504'
-  data-reservation-code='QMHRXP'
-  >
-  <td>
-    <span class="label label-gray label-info">
-      Expired
+    <span class="label label-green label-success">
+      Accepted
     </span>
   </td>
 
   <td>
     Jul 17 - 20, 2015
     <br>
-    <a href="https://www.airbnb.com/rooms/827834" locale="en">Bucktown Apartment at 6 Corners</a>
+    <a href="https://www.airbnb.com/rooms/1615246" locale="en">Futon Steps Away From Six Corners</a>
     <br>
-        1616 N Damen Ave 2nd Floor
+        1619 N Damen Ave 3F
         <br>
         Chicago, IL 60647
         <br>
@@ -1085,22 +1026,54 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <td>
     <div class="media va-container">
-<a href="/users/show/28865120" class="pull-left media-photo media-round">        <img alt="Patrick" height="50" src="https://a2.muscache.com/ac/users/28865120/profile_pic/1425658061/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Patrick" width="50" />
+<a href="/users/show/24380051" class="pull-left media-photo media-round">        <img alt="Tiffany" height="50" src="https://a1.muscache.com/ac/users/24380051/profile_pic/1430882695/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Tiffany" width="50" />
 </a>      <div class="va-top">
-        <a href="/users/show/28865120" class="text-normal">Patrick E</a>
+        <a href="/users/show/24380051" class="text-normal">Tiffany Lee</a>
         <br />
+        <a class="text-normal" href="/messaging/qt_with/24380051">
+          <i class="icon icon-envelope"></i>
+          Send Message
+        </a><br />
+          +1 562 667 6509
+          <br />
+          <a href='mailto:tiffany-1698rjdxscxhihpo@guest.airbnb.com'>
+            Contact by Email
+          </a>
+            <i id="anonymous-email-67942646-tooltip-trigger" class="icon icon-question"></i>
+
+  <div class="tooltip tooltip-bottom-middle" role="tooltip"
+       data-trigger="#anonymous-email-67942646-tooltip-trigger" data-sticky="true">
+    <p class="panel-body">
+      <a href="/help/article/694" target="_blank">
+        Learn more about anonymous emails
+      </a>
+    </p>
+  </div>
+
+
+          <br />
       </div>
     </div>
   </td>
 
   <td>
-      $387
+      $273
       total
 
 
     <ul class="list-unstyled">
+        <li>
+          <a href="/reservation/itinerary?code=A5ZEAS" target="_blank">Print Confirmation</a>
+        </li>
+
+          <li>
+            <a href="/reservation/change?code=A5ZEAS">Change or Cancel</a>
+          </li>
+          <li>
+            <a href="#" class="report-a-problem" data-prevent-default="true">Report A Problem</a>
+          </li>
       <li>
-        <a href="/messaging/qt_with/28865120">Message History</a>
+        <a href="/messaging/qt_with/24380051">Message History</a>
       </li>
     </ul>
 
@@ -1108,413 +1081,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </tr>
 
           <tr class='reservation'
-  data-reservation-id='73520268'
-  data-reservation-code='BPB44D'
-  >
-  <td>
-    <span class="label label-gray label-info">
-      Declined
-    </span>
-  </td>
-
-  <td>
-    Jun 18 - 21, 2015
-    <br>
-    <a href="https://www.airbnb.com/rooms/827834" locale="en">Bucktown Apartment at 6 Corners</a>
-    <br>
-        1616 N Damen Ave 2nd Floor
-        <br>
-        Chicago, IL 60647
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/20804684" class="pull-left media-photo media-round">        <img alt="Casey" height="50" src="https://a1.muscache.com/ac/users/20804684/profile_pic/1409587014/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Casey" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/20804684" class="text-normal">Casey P</a>
-        <br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $387
-      total
-
-
-    <ul class="list-unstyled">
-      <li>
-        <a href="/messaging/qt_with/20804684">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='73632951'
-  data-reservation-code='3XC5YZ'
-  >
-  <td>
-    <span class="label label-gray label-info">
-      Expired
-    </span>
-  </td>
-
-  <td>
-    Jun 14 - 16, 2015
-    <br>
-    <a href="https://www.airbnb.com/rooms/827834" locale="en">Bucktown Apartment at 6 Corners</a>
-    <br>
-        1616 N Damen Ave 2nd Floor
-        <br>
-        Chicago, IL 60647
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/33863380" class="pull-left media-photo media-round">        <img alt="Tim" height="50" src="https://a2.muscache.com/ac/users/33863380/profile_pic/1433342506/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Tim" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/33863380" class="text-normal">Tim G</a>
-        <br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $218
-      total
-
-
-    <ul class="list-unstyled">
-      <li>
-        <a href="/messaging/qt_with/33863380">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='18389759'
-  data-reservation-code='PYWDCP'
-  >
-  <td>
-    <span class="label label-gray label-info">
-      Expired
-    </span>
-  </td>
-
-  <td>
-    Oct 11 - 13, 2014
-    <br>
-    <a href="https://www.airbnb.com/rooms/268546" locale="en">SF  Yacht 2 bedroom 2 bath Hattars</a>
-    <br>
-        Harbormaster Rd Dock 1 must get keys first
-        <br>
-        South San Francisco, CA 94080
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/12203770" class="pull-left media-photo media-round">        <img alt="Kim" height="50" src="https://a2.muscache.com/defaults/user_pic-50x50.png?v=2" title="Kim" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/12203770" class="text-normal">Kim G</a>
-        <br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $240
-      total
-
-
-    <ul class="list-unstyled">
-      <li>
-        <a href="/messaging/qt_with/12203770">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='31840419'
-  data-reservation-code='39MNQH'
-  >
-  <td>
-    <span class="label label-gray label-info">
-      Expired
-    </span>
-  </td>
-
-  <td>
-    Aug 14 - 15, 2014
-    <br>
-    <a href="https://www.airbnb.com/rooms/827834" locale="en">Bucktown Apartment at 6 Corners</a>
-    <br>
-        1616 N Damen Ave 2nd Floor
-        <br>
-        Chicago, IL 60647
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/4305147" class="pull-left media-photo media-round">        <img alt="Bonner" height="50" src="https://a1.muscache.com/ac/users/4305147/profile_pic/1396563436/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Bonner" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/4305147" class="text-normal">Bonner C</a>
-        <br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $149
-      total
-
-
-    <ul class="list-unstyled">
-      <li>
-        <a href="/messaging/qt_with/4305147">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='17154008'
-  data-reservation-code='2XQDB3'
-  >
-  <td>
-    <span class="label label-gray label-info">
-      Canceled
-    </span>
-  </td>
-
-  <td>
-    Jul 30 - Aug 2, 2014
-    <br>
-    <a href="https://www.airbnb.com/rooms/268546" locale="en">SF  Yacht 2 bedroom 2 bath Hattars</a>
-    <br>
-        Harbormaster Rd Dock 1 must get keys first
-        <br>
-        South San Francisco, CA 94080
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/11513963" class="pull-left media-photo media-round">        <img alt="Nathalie" height="50" src="https://a2.muscache.com/defaults/user_pic-50x50.png?v=2" title="Nathalie" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/11513963" class="text-normal">Nathalie B</a>
-        <br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $365
-      total
-
-
-    <ul class="list-unstyled">
-      <li>
-        <a href="/messaging/qt_with/11513963">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='18565008'
-  data-reservation-code='WJCHPH'
-  >
-  <td>
-    <span class="label label-gray label-info">
-      Canceled
-    </span>
-  </td>
-
-  <td>
-    Jul 17 - 21, 2014
-    <br>
-    <a href="https://www.airbnb.com/rooms/268546" locale="en">SF  Yacht 2 bedroom 2 bath Hattars</a>
-    <br>
-        Harbormaster Rd Dock 1 must get keys first
-        <br>
-        South San Francisco, CA 94080
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/12291801" class="pull-left media-photo media-round">        <img alt="Reagon" height="50" src="https://a0.muscache.com/ac/users/12291801/profile_pic/1404684238/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Reagon" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/12291801" class="text-normal">Reagon C</a>
-        <br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $395
-      total
-
-
-    <ul class="list-unstyled">
-      <li>
-        <a href="/messaging/qt_with/12291801">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='18263159'
-  data-reservation-code='94YP3W'
-  >
-  <td>
-    <span class="label label-gray label-info">
-      Canceled
-    </span>
-  </td>
-
-  <td>
-    Jul 13 - 17, 2014
-    <br>
-    <a href="https://www.airbnb.com/rooms/268546" locale="en">SF  Yacht 2 bedroom 2 bath Hattars</a>
-    <br>
-        Harbormaster Rd Dock 1 must get keys first
-        <br>
-        South San Francisco, CA 94080
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/12137407" class="pull-left media-photo media-round">        <img alt="Frank" height="50" src="https://a2.muscache.com/defaults/user_pic-50x50.png?v=2" title="Frank" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/12137407" class="text-normal">Frank K</a>
-        <br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $445
-      total
-
-
-    <ul class="list-unstyled">
-      <li>
-        <a href="/messaging/qt_with/12137407">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='27947663'
-  data-reservation-code='DANMXQ'
-  >
-  <td>
-    <span class="label label-gray label-info">
-      Declined
-    </span>
-  </td>
-
-  <td>
-    Jul 10 - 13, 2014
-    <br>
-    <a href="https://www.airbnb.com/rooms/827834" locale="en">Bucktown Apartment at 6 Corners</a>
-    <br>
-        1616 N Damen Ave 2nd Floor
-        <br>
-        Chicago, IL 60647
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/17341950" class="pull-left media-photo media-round">        <img alt="Pau" height="50" src="https://a0.muscache.com/ac/users/17341950/profile_pic/1403904167/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Pau" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/17341950" class="text-normal">Pau D</a>
-        <br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $387
-      total
-
-
-    <ul class="list-unstyled">
-      <li>
-        <a href="/messaging/qt_with/17341950">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='16623456'
-  data-reservation-code='EXAEWX'
-  >
-  <td>
-    <span class="label label-gray label-info">
-      Canceled
-    </span>
-  </td>
-
-  <td>
-    Jul 9 - 11, 2014
-    <br>
-    <a href="https://www.airbnb.com/rooms/268546" locale="en">SF  Yacht 2 bedroom 2 bath Hattars</a>
-    <br>
-        Harbormaster Rd Dock 1 must get keys first
-        <br>
-        South San Francisco, CA 94080
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/1711546" class="pull-left media-photo media-round">        <img alt="Thierry" height="50" src="https://a1.muscache.com/ac/users/1711546/profile_pic/1328627265/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Thierry" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/1711546" class="text-normal">Thierry G</a>
-        <br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $287
-      total
-
-
-    <ul class="list-unstyled">
-      <li>
-        <a href="/messaging/qt_with/1711546">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='24359170'
-  data-reservation-code='SWQJ5Q'
+  data-reservation-id='78739269'
+  data-reservation-code='W3KQNP'
   >
   <td>
     <span class="label label-green label-success">
@@ -1523,11 +1091,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </td>
 
   <td>
-    Jun 28 - 30, 2014
+    Jul 10 - 17, 2015
     <br>
-    <a href="https://www.airbnb.com/rooms/827834" locale="en">Bucktown Apartment at 6 Corners</a>
+    <a href="https://www.airbnb.com/rooms/1615246" locale="en">Futon Steps Away From Six Corners</a>
     <br>
-        1616 N Damen Ave 2nd Floor
+        1619 N Damen Ave 3F
         <br>
         Chicago, IL 60647
         <br>
@@ -1535,1223 +1103,32 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <td>
     <div class="media va-container">
-<a href="/users/show/15461424" class="pull-left media-photo media-round">        <img alt="Mike" height="50" src="https://a1.muscache.com/ac/users/15461424/profile_pic/1399981563/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Mike" width="50" />
+<a href="/users/show/3034897" class="pull-left media-photo media-round">        <img alt="Chris" height="50" src="https://a0.muscache.com/ac/users/3034897/profile_pic/1435090095/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Chris" width="50" />
 </a>      <div class="va-top">
-        <a href="/users/show/15461424" class="text-normal">Mike Andreas</a>
+        <a href="/users/show/3034897" class="text-normal">Chris Ching</a>
         <br />
-        <a class="text-normal" href="/messaging/qt_with/15461424">
+        <a class="text-normal" href="/messaging/qt_with/3034897">
           <i class="icon icon-envelope"></i>
           Send Message
         </a><br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $258
-      total
-
-
-    <ul class="list-unstyled">
-        <li>
-          <a href="/reservation/itinerary?code=SWQJ5Q" target="_blank">Print Confirmation</a>
-        </li>
-
-      <li>
-        <a href="/messaging/qt_with/15461424">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='18184023'
-  data-reservation-code='JD9B4Y'
-  >
-  <td>
-    <span class="label label-gray label-info">
-      Canceled
-    </span>
-  </td>
-
-  <td>
-    Jun 15 - 19, 2014
-    <br>
-    <a href="https://www.airbnb.com/rooms/268546" locale="en">SF  Yacht 2 bedroom 2 bath Hattars</a>
-    <br>
-        Harbormaster Rd Dock 1 must get keys first
-        <br>
-        South San Francisco, CA 94080
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/5760419" class="pull-left media-photo media-round">        <img alt="Erika" height="50" src="https://a2.muscache.com/ac/users/5760419/profile_pic/1365039899/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Erika" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/5760419" class="text-normal">Erika H</a>
-        <br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $425
-      total
-
-
-    <ul class="list-unstyled">
-      <li>
-        <a href="/messaging/qt_with/5760419">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='17645320'
-  data-reservation-code='2HWSYH'
-  >
-  <td>
-    <span class="label label-gray label-info">
-      Canceled
-    </span>
-  </td>
-
-  <td>
-    Jun 7 - 11, 2014
-    <br>
-    <a href="https://www.airbnb.com/rooms/268546" locale="en">SF  Yacht 2 bedroom 2 bath Hattars</a>
-    <br>
-        Harbormaster Rd Dock 1 must get keys first
-        <br>
-        South San Francisco, CA 94080
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/11723388" class="pull-left media-photo media-round">        <img alt="Stefan" height="50" src="https://a0.muscache.com/ac/users/11723388/profile_pic/1416998561/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Stefan" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/11723388" class="text-normal">Stefan H</a>
-        <br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $450
-      total
-
-
-    <ul class="list-unstyled">
-      <li>
-        <a href="/messaging/qt_with/11723388">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='17568849'
-  data-reservation-code='J4KW8D'
-  >
-  <td>
-    <span class="label label-gray label-info">
-      Canceled
-    </span>
-  </td>
-
-  <td>
-    Jun 3 - 5, 2014
-    <br>
-    <a href="https://www.airbnb.com/rooms/268546" locale="en">SF  Yacht 2 bedroom 2 bath Hattars</a>
-    <br>
-        Harbormaster Rd Dock 1 must get keys first
-        <br>
-        South San Francisco, CA 94080
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/11754033" class="pull-left media-photo media-round">        <img alt="John" height="50" src="https://a0.muscache.com/ac/users/11754033/profile_pic/1391005717/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="John" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/11754033" class="text-normal">John H</a>
-        <br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $245
-      total
-
-
-    <ul class="list-unstyled">
-      <li>
-        <a href="/messaging/qt_with/11754033">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='17062859'
-  data-reservation-code='YHQDJ4'
-  >
-  <td>
-    <span class="label label-gray label-info">
-      Canceled
-    </span>
-  </td>
-
-  <td>
-    May 30 - Jun 1, 2014
-    <br>
-    <a href="https://www.airbnb.com/rooms/268546" locale="en">SF  Yacht 2 bedroom 2 bath Hattars</a>
-    <br>
-        Harbormaster Rd Dock 1 must get keys first
-        <br>
-        South San Francisco, CA 94080
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/11441394" class="pull-left media-photo media-round">        <img alt="April" height="50" src="https://a0.muscache.com/ac/users/11441394/profile_pic/1390144583/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="April" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/11441394" class="text-normal">April H</a>
-        <br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $255
-      total
-
-
-    <ul class="list-unstyled">
-      <li>
-        <a href="/messaging/qt_with/11441394">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='25342803'
-  data-reservation-code='4C5KHZ'
-  >
-  <td>
-    <span class="label label-gray label-info">
-      Declined
-    </span>
-  </td>
-
-  <td>
-    May 28 - Jun 3, 2014
-    <br>
-    <a href="https://www.airbnb.com/rooms/827834" locale="en">Bucktown Apartment at 6 Corners</a>
-    <br>
-        1616 N Damen Ave 2nd Floor
-        <br>
-        Chicago, IL 60647
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/4376076" class="pull-left media-photo media-round">        <img alt="Dirk" height="50" src="https://a0.muscache.com/ac/users/4376076/profile_pic/1408617313/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Dirk" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/4376076" class="text-normal">Dirk P</a>
-        <br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $534
-      total
-
-
-    <ul class="list-unstyled">
-      <li>
-        <a href="/messaging/qt_with/4376076">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='17968051'
-  data-reservation-code='9KHH2M'
-  >
-  <td>
-    <span class="label label-gray label-info">
-      Expired
-    </span>
-  </td>
-
-  <td>
-    May 5 - 7, 2014
-    <br>
-    <a href="https://www.airbnb.com/rooms/268546" locale="en">SF  Yacht 2 bedroom 2 bath Hattars</a>
-    <br>
-        Harbormaster Rd Dock 1 must get keys first
-        <br>
-        South San Francisco, CA 94080
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/11917198" class="pull-left media-photo media-round">        <img alt="Enzo" height="50" src="https://a2.muscache.com/defaults/user_pic-50x50.png?v=2" title="Enzo" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/11917198" class="text-normal">Enzo C</a>
-        <br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $255
-      total
-
-
-    <ul class="list-unstyled">
-      <li>
-        <a href="/messaging/qt_with/11917198">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='17287870'
-  data-reservation-code='SR4PH8'
-  >
-  <td>
-    <span class="label label-gray label-info">
-      Canceled
-    </span>
-  </td>
-
-  <td>
-    Apr 7 - 10, 2014
-    <br>
-    <a href="https://www.airbnb.com/rooms/268546" locale="en">SF  Yacht 2 bedroom 2 bath Hattars</a>
-    <br>
-        Harbormaster Rd Dock 1 must get keys first
-        <br>
-        South San Francisco, CA 94080
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/1001799" class="pull-left media-photo media-round">        <img alt="Martin" height="50" src="https://a1.muscache.com/ac/users/1001799/profile_pic/1313966694/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Martin" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/1001799" class="text-normal">Martin H</a>
-        <br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $330
-      total
-
-
-    <ul class="list-unstyled">
-      <li>
-        <a href="/messaging/qt_with/1001799">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='16865150'
-  data-reservation-code='CEAA8T'
-  >
-  <td>
-    <span class="label label-gray label-info">
-      Canceled
-    </span>
-  </td>
-
-  <td>
-    Mar 28 - 30, 2014
-    <br>
-    <a href="https://www.airbnb.com/rooms/268546" locale="en">SF  Yacht 2 bedroom 2 bath Hattars</a>
-    <br>
-        Harbormaster Rd Dock 1 must get keys first
-        <br>
-        South San Francisco, CA 94080
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/11313899" class="pull-left media-photo media-round">        <img alt="Ting Ting Sherry" height="50" src="https://a1.muscache.com/ac/users/11313899/profile_pic/1389763654/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Ting Ting Sherry" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/11313899" class="text-normal">Ting Ting Sherry T</a>
-        <br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $265
-      total
-
-
-    <ul class="list-unstyled">
-      <li>
-        <a href="/messaging/qt_with/11313899">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='17117513'
-  data-reservation-code='B552E2'
-  >
-  <td>
-    <span class="label label-gray label-info">
-      Canceled
-    </span>
-  </td>
-
-  <td>
-    Mar 26 - 29, 2014
-    <br>
-    <a href="https://www.airbnb.com/rooms/268546" locale="en">SF  Yacht 2 bedroom 2 bath Hattars</a>
-    <br>
-        Harbormaster Rd Dock 1 must get keys first
-        <br>
-        South San Francisco, CA 94080
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/11490691" class="pull-left media-photo media-round">        <img alt="Sara" height="50" src="https://a2.muscache.com/ac/users/11490691/profile_pic/1390265130/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Sara" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/11490691" class="text-normal">Sara L</a>
-        <br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $365
-      total
-
-
-    <ul class="list-unstyled">
-      <li>
-        <a href="/messaging/qt_with/11490691">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='17962039'
-  data-reservation-code='WC93NY'
-  >
-  <td>
-    <span class="label label-gray label-info">
-      Expired
-    </span>
-  </td>
-
-  <td>
-    Mar 21 - 24, 2014
-    <br>
-    <a href="https://www.airbnb.com/rooms/268546" locale="en">SF  Yacht 2 bedroom 2 bath Hattars</a>
-    <br>
-        Harbormaster Rd Dock 1 must get keys first
-        <br>
-        South San Francisco, CA 94080
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/3475540" class="pull-left media-photo media-round">        <img alt="Carolina" height="50" src="https://a2.muscache.com/ac/users/3475540/profile_pic/1346821949/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Carolina" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/3475540" class="text-normal">Carolina S</a>
-        <br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $325
-      total
-
-
-    <ul class="list-unstyled">
-      <li>
-        <a href="/messaging/qt_with/3475540">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='18021238'
-  data-reservation-code='EC84QT'
-  >
-  <td>
-    <span class="label label-gray label-info">
-      Expired
-    </span>
-  </td>
-
-  <td>
-    Mar 21 - 24, 2014
-    <br>
-    <a href="https://www.airbnb.com/rooms/268546" locale="en">SF  Yacht 2 bedroom 2 bath Hattars</a>
-    <br>
-        Harbormaster Rd Dock 1 must get keys first
-        <br>
-        South San Francisco, CA 94080
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/3475540" class="pull-left media-photo media-round">        <img alt="Carolina" height="50" src="https://a2.muscache.com/ac/users/3475540/profile_pic/1346821949/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Carolina" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/3475540" class="text-normal">Carolina S</a>
-        <br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $325
-      total
-
-
-    <ul class="list-unstyled">
-      <li>
-        <a href="/messaging/qt_with/3475540">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='18181607'
-  data-reservation-code='9C4F54'
-  >
-  <td>
-    <span class="label label-green label-success">
-      Accepted
-    </span>
-  </td>
-
-  <td>
-    Mar 21 - 24, 2014
-    <br>
-    <a href="https://www.airbnb.com/rooms/268546" locale="en">SF  Yacht 2 bedroom 2 bath Hattars</a>
-    <br>
-        Harbormaster Rd Dock 1 must get keys first
-        <br>
-        South San Francisco, CA 94080
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/3475540" class="pull-left media-photo media-round">        <img alt="Carolina" height="50" src="https://a2.muscache.com/ac/users/3475540/profile_pic/1346821949/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Carolina" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/3475540" class="text-normal">Carolina Selva</a>
-        <br />
-        <a class="text-normal" href="/messaging/qt_with/3475540">
-          <i class="icon icon-envelope"></i>
-          Send Message
-        </a><br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $250
-      total
-
-
-    <ul class="list-unstyled">
-        <li>
-          <a href="/reservation/itinerary?code=9C4F54" target="_blank">Print Confirmation</a>
-        </li>
-
-      <li>
-        <a href="/messaging/qt_with/3475540">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='17358678'
-  data-reservation-code='BFNT5C'
-  >
-  <td>
-    <span class="label label-green label-success">
-      Accepted
-    </span>
-  </td>
-
-  <td>
-    Mar 18 - 21, 2014
-    <br>
-    <a href="https://www.airbnb.com/rooms/268546" locale="en">SF  Yacht 2 bedroom 2 bath Hattars</a>
-    <br>
-        Harbormaster Rd Dock 1 must get keys first
-        <br>
-        South San Francisco, CA 94080
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/277258" class="pull-left media-photo media-round">        <img alt="Jessica" height="50" src="https://a2.muscache.com/ac/users/277258/profile_pic/1390520268/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Jessica" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/277258" class="text-normal">Jessica Lyons</a>
-        <br />
-        <a class="text-normal" href="/messaging/qt_with/277258">
-          <i class="icon icon-envelope"></i>
-          Send Message
-        </a><br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $300
-      total
-
-
-    <ul class="list-unstyled">
-        <li>
-          <a href="/reservation/itinerary?code=BFNT5C" target="_blank">Print Confirmation</a>
-        </li>
-
-      <li>
-        <a href="/messaging/qt_with/277258">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='18106992'
-  data-reservation-code='YWYKHS'
-  >
-  <td>
-    <span class="label label-green label-success">
-      Accepted
-    </span>
-  </td>
-
-  <td>
-    Mar 14 - 17, 2014
-    <br>
-    <a href="https://www.airbnb.com/rooms/268546" locale="en">SF  Yacht 2 bedroom 2 bath Hattars</a>
-    <br>
-        Harbormaster Rd Dock 1 must get keys first
-        <br>
-        South San Francisco, CA 94080
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/11553773" class="pull-left media-photo media-round">        <img alt="Ekaterina" height="50" src="https://a2.muscache.com/defaults/user_pic-50x50.png?v=2" title="Ekaterina" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/11553773" class="text-normal">Ekaterina Gasparian</a>
-        <br />
-        <a class="text-normal" href="/messaging/qt_with/11553773">
-          <i class="icon icon-envelope"></i>
-          Send Message
-        </a><br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $370
-      total
-
-
-    <ul class="list-unstyled">
-        <li>
-          <a href="/reservation/itinerary?code=YWYKHS" target="_blank">Print Confirmation</a>
-        </li>
-
-      <li>
-        <a href="/messaging/qt_with/11553773">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='18066732'
-  data-reservation-code='H99XBN'
-  >
-  <td>
-    <span class="label label-green label-success">
-      Accepted
-    </span>
-  </td>
-
-  <td>
-    Mar 1 - 3, 2014
-    <br>
-    <a href="https://www.airbnb.com/rooms/268546" locale="en">SF  Yacht 2 bedroom 2 bath Hattars</a>
-    <br>
-        Harbormaster Rd Dock 1 must get keys first
-        <br>
-        South San Francisco, CA 94080
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/7366436" class="pull-left media-photo media-round">        <img alt="Denise" height="50" src="https://a1.muscache.com/ac/users/7366436/profile_pic/1400788241/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Denise" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/7366436" class="text-normal">Denise Alatorre</a>
-        <br />
-        <a class="text-normal" href="/messaging/qt_with/7366436">
-          <i class="icon icon-envelope"></i>
-          Send Message
-        </a><br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $240
-      total
-
-
-    <ul class="list-unstyled">
-        <li>
-          <a href="/reservation/itinerary?code=H99XBN" target="_blank">Print Confirmation</a>
-        </li>
-
-      <li>
-        <a href="/messaging/qt_with/7366436">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='16758822'
-  data-reservation-code='AJARCY'
-  >
-  <td>
-    <span class="label label-green label-success">
-      Accepted
-    </span>
-  </td>
-
-  <td>
-    Feb 14 - 17, 2014
-    <br>
-    <a href="https://www.airbnb.com/rooms/268546" locale="en">SF  Yacht 2 bedroom 2 bath Hattars</a>
-    <br>
-        Harbormaster Rd Dock 1 must get keys first
-        <br>
-        South San Francisco, CA 94080
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/11280475" class="pull-left media-photo media-round">        <img alt="Anjanette" height="50" src="https://a2.muscache.com/ac/users/11280475/profile_pic/1392858155/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Anjanette" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/11280475" class="text-normal">Anjanette Shadley Martin</a>
-        <br />
-        <a class="text-normal" href="/messaging/qt_with/11280475">
-          <i class="icon icon-envelope"></i>
-          Send Message
-        </a><br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $325
-      total
-
-
-    <ul class="list-unstyled">
-        <li>
-          <a href="/reservation/itinerary?code=AJARCY" target="_blank">Print Confirmation</a>
-        </li>
-
-      <li>
-        <a href="/messaging/qt_with/11280475">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='16976968'
-  data-reservation-code='FEFY8S'
-  >
-  <td>
-    <span class="label label-green label-success">
-      Accepted
-    </span>
-  </td>
-
-  <td>
-    Feb 10 - 14, 2014
-    <br>
-    <a href="https://www.airbnb.com/rooms/268546" locale="en">SF  Yacht 2 bedroom 2 bath Hattars</a>
-    <br>
-        Harbormaster Rd Dock 1 must get keys first
-        <br>
-        South San Francisco, CA 94080
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/11405939" class="pull-left media-photo media-round">        <img alt="Peter" height="50" src="https://a2.muscache.com/defaults/user_pic-50x50.png?v=2" title="Peter" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/11405939" class="text-normal">Peter Vertes</a>
-        <br />
-        <a class="text-normal" href="/messaging/qt_with/11405939">
-          <i class="icon icon-envelope"></i>
-          Send Message
-        </a><br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $445
-      total
-
-
-    <ul class="list-unstyled">
-        <li>
-          <a href="/reservation/itinerary?code=FEFY8S" target="_blank">Print Confirmation</a>
-        </li>
-
-      <li>
-        <a href="/messaging/qt_with/11405939">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='17066867'
-  data-reservation-code='DKXAZD'
-  >
-  <td>
-    <span class="label label-gray label-info">
-      Canceled
-    </span>
-  </td>
-
-  <td>
-    Jan 21 - 24, 2014
-    <br>
-    <a href="https://www.airbnb.com/rooms/268546" locale="en">SF  Yacht 2 bedroom 2 bath Hattars</a>
-    <br>
-        Harbormaster Rd Dock 1 must get keys first
-        <br>
-        South San Francisco, CA 94080
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/5439446" class="pull-left media-photo media-round">        <img alt="Davis" height="50" src="https://a0.muscache.com/ac/users/5439446/profile_pic/1363629893/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Davis" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/5439446" class="text-normal">Davis C</a>
-        <br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $315
-      total
-
-
-    <ul class="list-unstyled">
-      <li>
-        <a href="/messaging/qt_with/5439446">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='17063072'
-  data-reservation-code='HMZ33R'
-  >
-  <td>
-    <span class="label label-gray label-info">
-      Canceled
-    </span>
-  </td>
-
-  <td>
-    Jan 20 - 24, 2014
-    <br>
-    <a href="https://www.airbnb.com/rooms/268546" locale="en">SF  Yacht 2 bedroom 2 bath Hattars</a>
-    <br>
-        Harbormaster Rd Dock 1 must get keys first
-        <br>
-        South San Francisco, CA 94080
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/5439446" class="pull-left media-photo media-round">        <img alt="Davis" height="50" src="https://a0.muscache.com/ac/users/5439446/profile_pic/1363629893/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Davis" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/5439446" class="text-normal">Davis C</a>
-        <br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $405
-      total
-
-
-    <ul class="list-unstyled">
-      <li>
-        <a href="/messaging/qt_with/5439446">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='16671057'
-  data-reservation-code='CYNKXH'
-  >
-  <td>
-    <span class="label label-green label-success">
-      Accepted
-    </span>
-  </td>
-
-  <td>
-    Jan 18 - 20, 2014
-    <br>
-    <a href="https://www.airbnb.com/rooms/268546" locale="en">SF  Yacht 2 bedroom 2 bath Hattars</a>
-    <br>
-        Harbormaster Rd Dock 1 must get keys first
-        <br>
-        South San Francisco, CA 94080
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/11214307" class="pull-left media-photo media-round">        <img alt="Mae" height="50" src="https://a2.muscache.com/ac/users/11214307/profile_pic/1389491942/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Mae" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/11214307" class="text-normal">Mae June</a>
-        <br />
-        <a class="text-normal" href="/messaging/qt_with/11214307">
-          <i class="icon icon-envelope"></i>
-          Send Message
-        </a><br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $300
-      total
-
-
-    <ul class="list-unstyled">
-        <li>
-          <a href="/reservation/itinerary?code=CYNKXH" target="_blank">Print Confirmation</a>
-        </li>
-
-      <li>
-        <a href="/messaging/qt_with/11214307">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='16613757'
-  data-reservation-code='8B3P9S'
-  >
-  <td>
-    <span class="label label-gray label-info">
-      Declined
-    </span>
-  </td>
-
-  <td>
-    Jan 13 - 15, 2014
-    <br>
-    <a href="https://www.airbnb.com/rooms/268546" locale="en">SF  Yacht 2 bedroom 2 bath Hattars</a>
-    <br>
-        Harbormaster Rd Dock 1 must get keys first
-        <br>
-        South San Francisco, CA 94080
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/10955652" class="pull-left media-photo media-round">        <img alt="Jorge" height="50" src="https://a0.muscache.com/ac/users/10955652/profile_pic/1388640760/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Jorge" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/10955652" class="text-normal">Jorge P</a>
-        <br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $235
-      total
-
-
-    <ul class="list-unstyled">
-      <li>
-        <a href="/messaging/qt_with/10955652">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='9824342'
-  data-reservation-code='KAHF45'
-  >
-  <td>
-    <span class="label label-green label-success">
-      Accepted
-    </span>
-  </td>
-
-  <td>
-    Jul 14 - 19, 2013
-    <br>
-    <a href="https://www.airbnb.com/rooms/827834" locale="en">Bucktown Apartment at 6 Corners</a>
-    <br>
-        1616 N Damen Ave 2nd Floor
-        <br>
-        Chicago, IL 60647
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/2090782" class="pull-left media-photo media-round">        <img alt="Scott" height="50" src="https://a1.muscache.com/ac/users/2090782/profile_pic/1333849450/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Scott" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/2090782" class="text-normal">Scott Kay</a>
-        <br />
-        <a class="text-normal" href="/messaging/qt_with/2090782">
-          <i class="icon icon-envelope"></i>
-          Send Message
-        </a><br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $445
-      total
-
-
-    <ul class="list-unstyled">
-        <li>
-          <a href="/reservation/itinerary?code=KAHF45" target="_blank">Print Confirmation</a>
-        </li>
-
-      <li>
-        <a href="/messaging/qt_with/2090782">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='8105075'
-  data-reservation-code='MPA9AY'
-  >
-  <td>
-    <span class="label label-green label-success">
-      Accepted
-    </span>
-  </td>
-
-  <td>
-    May 12 - 14, 2013
-    <br>
-    <a href="https://www.airbnb.com/rooms/827834" locale="en">Bucktown Apartment at 6 Corners</a>
-    <br>
-        1616 N Damen Ave 2nd Floor
-        <br>
-        Chicago, IL 60647
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/4713222" class="pull-left media-photo media-round">        <img alt="Chelsea" height="50" src="https://a2.muscache.com/defaults/user_pic-50x50.png?v=2" title="Chelsea" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/4713222" class="text-normal">Chelsea Lange</a>
-        <br />
-        <a class="text-normal" href="/messaging/qt_with/4713222">
-          <i class="icon icon-envelope"></i>
-          Send Message
-        </a><br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $178
-      total
-
-
-    <ul class="list-unstyled">
-        <li>
-          <a href="/reservation/itinerary?code=MPA9AY" target="_blank">Print Confirmation</a>
-        </li>
-
-      <li>
-        <a href="/messaging/qt_with/4713222">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='6103493'
-  data-reservation-code='JRXJ9P'
-  >
-  <td>
-    <span class="label label-green label-success">
-      Accepted
-    </span>
-  </td>
-
-  <td>
-    Mar 15 - 18, 2013
-    <br>
-    <a href="https://www.airbnb.com/rooms/827834" locale="en">Bucktown Apartment at 6 Corners</a>
-    <br>
-        1616 N Damen Ave 2nd Floor
-        <br>
-        Chicago, IL 60647
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/2408406" class="pull-left media-photo media-round">        <img alt="Josh" height="50" src="https://a2.muscache.com/ac/users/2408406/profile_pic/1420248513/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Josh" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/2408406" class="text-normal">Josh Moore</a>
-        <br />
-        <a class="text-normal" href="/messaging/qt_with/2408406">
-          <i class="icon icon-envelope"></i>
-          Send Message
-        </a><br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $447
-      total
-
-
-    <ul class="list-unstyled">
-        <li>
-          <a href="/reservation/itinerary?code=JRXJ9P" target="_blank">Print Confirmation</a>
-        </li>
-
-      <li>
-        <a href="/messaging/qt_with/2408406">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='4934805'
-  data-reservation-code='8XF9AJ'
-  >
-  <td>
-    <span class="label label-gray label-info">
-      Canceled
-    </span>
-  </td>
-
-  <td>
-    Dec 28 - 30, 2012
-    <br>
-    <a href="https://www.airbnb.com/rooms/272161" locale="en">Bucktown Studio Apartment</a>
-    <br>
-        1616 N Damen Ave IHSP Reception Desk at Office A1 (corner)
-        <br>
-        Chicago, IL 60647
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/3452994" class="pull-left media-photo media-round">        <img alt="Rachael" height="50" src="https://a1.muscache.com/ac/users/3452994/profile_pic/1404396158/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Rachael" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/3452994" class="text-normal">Rachael A</a>
-        <br />
+          +1 408 368 5552
+          <br />
+          <a href='mailto:chris-hy5libvszcdabk1k@guest.airbnb.com'>
+            Contact by Email
+          </a>
+            <i id="anonymous-email-78739269-tooltip-trigger" class="icon icon-question"></i>
+
+  <div class="tooltip tooltip-bottom-middle" role="tooltip"
+       data-trigger="#anonymous-email-78739269-tooltip-trigger" data-sticky="true">
+    <p class="panel-body">
+      <a href="/help/article/694" target="_blank">
+        Learn more about anonymous emails
+      </a>
+    </p>
+  </div>
+
+
+          <br />
       </div>
     </div>
   </td>
@@ -2762,8 +1139,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
     <ul class="list-unstyled">
+        <li>
+          <a href="/reservation/itinerary?code=W3KQNP" target="_blank">Print Confirmation</a>
+        </li>
+
+          <li>
+            <a href="/reservation/change?code=W3KQNP">Change or Cancel</a>
+          </li>
+          <li>
+            <a href="#" class="report-a-problem" data-prevent-default="true">Report A Problem</a>
+          </li>
       <li>
-        <a href="/messaging/qt_with/3452994">Message History</a>
+        <a href="/messaging/qt_with/3034897">Message History</a>
       </li>
     </ul>
 
@@ -2771,8 +1158,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </tr>
 
           <tr class='reservation'
-  data-reservation-id='4893362'
-  data-reservation-code='E5FDEE'
+  data-reservation-id='79890722'
+  data-reservation-code='424WBN'
   >
   <td>
     <span class="label label-green label-success">
@@ -2781,11 +1168,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </td>
 
   <td>
-    Nov 14 - 15, 2012
+    Jul 5 - 8, 2015
     <br>
-    <a href="https://www.airbnb.com/rooms/272161" locale="en">Bucktown Studio Apartment</a>
+    <a href="https://www.airbnb.com/rooms/1615246" locale="en">Futon Steps Away From Six Corners</a>
     <br>
-        1616 N Damen Ave IHSP Reception Desk at Office A1 (corner)
+        1619 N Damen Ave 3F
         <br>
         Chicago, IL 60647
         <br>
@@ -2793,468 +1180,32 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <td>
     <div class="media va-container">
-<a href="/users/show/1931619" class="pull-left media-photo media-round">        <img alt="Georgina" height="50" src="https://a0.muscache.com/ac/users/1931619/profile_pic/1370488642/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Georgina" width="50" />
+<a href="/users/show/32146111" class="pull-left media-photo media-round">        <img alt="Thomas" height="50" src="https://a0.muscache.com/ac/users/32146111/profile_pic/1430652749/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Thomas" width="50" />
 </a>      <div class="va-top">
-        <a href="/users/show/1931619" class="text-normal">Georgina Opoku</a>
+        <a href="/users/show/32146111" class="text-normal">Thomas Behuret</a>
         <br />
-        <a class="text-normal" href="/messaging/qt_with/1931619">
+        <a class="text-normal" href="/messaging/qt_with/32146111">
           <i class="icon icon-envelope"></i>
           Send Message
         </a><br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $89
-      total
-
-
-    <ul class="list-unstyled">
-        <li>
-          <a href="/reservation/itinerary?code=E5FDEE" target="_blank">Print Confirmation</a>
-        </li>
-
-      <li>
-        <a href="/messaging/qt_with/1931619">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='4002553'
-  data-reservation-code='WAJY5Z'
-  >
-  <td>
-    <span class="label label-gray label-info">
-      Declined
-    </span>
-  </td>
-
-  <td>
-    Oct 12 - 14, 2012
-    <br>
-    <a href="https://www.airbnb.com/rooms/268546" locale="en">SF  Yacht 2 bedroom 2 bath Hattars</a>
-    <br>
-        Harbormaster Rd Dock 1 must get keys first
-        <br>
-        South San Francisco, CA 94080
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/2148688" class="pull-left media-photo media-round">        <img alt="Eric" height="50" src="https://a2.muscache.com/ac/users/2148688/profile_pic/1334547618/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Eric" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/2148688" class="text-normal">Eric J</a>
-        <br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $230
-      total
-
-
-    <ul class="list-unstyled">
-      <li>
-        <a href="/messaging/qt_with/2148688">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='3841196'
-  data-reservation-code='YCW5BN'
-  >
-  <td>
-    <span class="label label-gray label-info">
-      Expired
-    </span>
-  </td>
-
-  <td>
-    Oct 3 - 5, 2012
-    <br>
-    <a href="https://www.airbnb.com/rooms/268546" locale="en">SF  Yacht 2 bedroom 2 bath Hattars</a>
-    <br>
-        Harbormaster Rd Dock 1 must get keys first
-        <br>
-        South San Francisco, CA 94080
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/3382270" class="pull-left media-photo media-round">        <img alt="Michael" height="50" src="https://a2.muscache.com/defaults/user_pic-50x50.png?v=2" title="Michael" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/3382270" class="text-normal">Michael I</a>
-        <br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $230
-      total
-
-
-    <ul class="list-unstyled">
-      <li>
-        <a href="/messaging/qt_with/3382270">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='4098733'
-  data-reservation-code='52J9HC'
-  >
-  <td>
-    <span class="label label-gray label-info">
-      Expired
-    </span>
-  </td>
-
-  <td>
-    Sep 18 - 20, 2012
-    <br>
-    <a href="https://www.airbnb.com/rooms/268546" locale="en">SF  Yacht 2 bedroom 2 bath Hattars</a>
-    <br>
-        Harbormaster Rd Dock 1 must get keys first
-        <br>
-        South San Francisco, CA 94080
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/3544299" class="pull-left media-photo media-round">        <img alt="QQueenie" height="50" src="https://a0.muscache.com/ac/users/3544299/profile_pic/1347435645/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="QQueenie" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/3544299" class="text-normal">QQueenie L</a>
-        <br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $190
-      total
-
-
-    <ul class="list-unstyled">
-      <li>
-        <a href="/messaging/qt_with/3544299">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='3757600'
-  data-reservation-code='92ABBF'
-  >
-  <td>
-    <span class="label label-gray label-info">
-      Declined
-    </span>
-  </td>
-
-  <td>
-    Sep 16 - 18, 2012
-    <br>
-    <a href="https://www.airbnb.com/rooms/268546" locale="en">SF  Yacht 2 bedroom 2 bath Hattars</a>
-    <br>
-        Harbormaster Rd Dock 1 must get keys first
-        <br>
-        South San Francisco, CA 94080
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/1701444" class="pull-left media-photo media-round">        <img alt="Robert" height="50" src="https://a2.muscache.com/ac/users/1701444/profile_pic/1329133721/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Robert" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/1701444" class="text-normal">Robert B</a>
-        <br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $210
-      total
-
-
-    <ul class="list-unstyled">
-      <li>
-        <a href="/messaging/qt_with/1701444">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='3326518'
-  data-reservation-code='2A8EBQ'
-  >
-  <td>
-    <span class="label label-gray label-info">
-      Expired
-    </span>
-  </td>
-
-  <td>
-    Sep 8 - 9, 2012
-    <br>
-    <a href="https://www.airbnb.com/rooms/477107" locale="en">Private room with breakfast include</a>
-    <br>
-        1616 N Damen Ave 2nd floor
-        <br>
-        Chicago, IL 60622
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/3028654" class="pull-left media-photo media-round">        <img alt="Leah" height="50" src="https://a2.muscache.com/ac/users/3028654/profile_pic/1343062241/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Leah" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/3028654" class="text-normal">Leah P</a>
-        <br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $72
-      total
-
-
-    <ul class="list-unstyled">
-      <li>
-        <a href="/messaging/qt_with/3028654">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='3797841'
-  data-reservation-code='ZSNEZZ'
-  >
-  <td>
-    <span class="label label-gray label-info">
-      Expired
-    </span>
-  </td>
-
-  <td>
-    Sep 1 - 4, 2012
-    <br>
-    <a href="https://www.airbnb.com/rooms/268546" locale="en">SF  Yacht 2 bedroom 2 bath Hattars</a>
-    <br>
-        Harbormaster Rd Dock 1 must get keys first
-        <br>
-        South San Francisco, CA 94080
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/1114248" class="pull-left media-photo media-round">        <img alt="Farzaneh" height="50" src="https://a0.muscache.com/ac/users/1114248/profile_pic/1323933479/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Farzaneh" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/1114248" class="text-normal">Farzaneh S</a>
-        <br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $345
-      total
-
-
-    <ul class="list-unstyled">
-      <li>
-        <a href="/messaging/qt_with/1114248">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='3885542'
-  data-reservation-code='KMDEX9'
-  >
-  <td>
-    <span class="label label-gray label-info">
-      Expired
-    </span>
-  </td>
-
-  <td>
-    Aug 31 - Sep 2, 2012
-    <br>
-    <a href="https://www.airbnb.com/rooms/268546" locale="en">SF  Yacht 2 bedroom 2 bath Hattars</a>
-    <br>
-        Harbormaster Rd Dock 1 must get keys first
-        <br>
-        South San Francisco, CA 94080
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/2229524" class="pull-left media-photo media-round">        <img alt="Dagmar" height="50" src="https://a0.muscache.com/ac/users/2229524/profile_pic/1396332253/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Dagmar" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/2229524" class="text-normal">Dagmar E</a>
-        <br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $230
-      total
-
-
-    <ul class="list-unstyled">
-      <li>
-        <a href="/messaging/qt_with/2229524">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='3605833'
-  data-reservation-code='HTM5TY'
-  >
-  <td>
-    <span class="label label-gray label-info">
-      Expired
-    </span>
-  </td>
-
-  <td>
-    Aug 25 - 27, 2012
-    <br>
-    <a href="https://www.airbnb.com/rooms/268546" locale="en">SF  Yacht 2 bedroom 2 bath Hattars</a>
-    <br>
-        Harbormaster Rd Dock 1 must get keys first
-        <br>
-        South San Francisco, CA 94080
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/1636132" class="pull-left media-photo media-round">        <img alt="Michelle" height="50" src="https://a1.muscache.com/ac/users/1636132/profile_pic/1402521456/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Michelle" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/1636132" class="text-normal">Michelle W</a>
-        <br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $210
-      total
-
-
-    <ul class="list-unstyled">
-      <li>
-        <a href="/messaging/qt_with/1636132">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='3623120'
-  data-reservation-code='XBWQAR'
-  >
-  <td>
-    <span class="label label-gray label-info">
-      Declined
-    </span>
-  </td>
-
-  <td>
-    Aug 25 - 27, 2012
-    <br>
-    <a href="https://www.airbnb.com/rooms/268546" locale="en">SF  Yacht 2 bedroom 2 bath Hattars</a>
-    <br>
-        Harbormaster Rd Dock 1 must get keys first
-        <br>
-        South San Francisco, CA 94080
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/1636132" class="pull-left media-photo media-round">        <img alt="Michelle" height="50" src="https://a1.muscache.com/ac/users/1636132/profile_pic/1402521456/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Michelle" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/1636132" class="text-normal">Michelle W</a>
-        <br />
-      </div>
-    </div>
-  </td>
-
-  <td>
-      $210
-      total
-
-
-    <ul class="list-unstyled">
-      <li>
-        <a href="/messaging/qt_with/1636132">Message History</a>
-      </li>
-    </ul>
-
-  </td>
-</tr>
-
-          <tr class='reservation'
-  data-reservation-id='2006306'
-  data-reservation-code='QE8XKA'
-  >
-  <td>
-    <span class="label label-gray label-info">
-      Expired
-    </span>
-  </td>
-
-  <td>
-    Aug 23 - 25, 2012
-    <br>
-    <a href="https://www.airbnb.com/rooms/268546" locale="en">SF  Yacht 2 bedroom 2 bath Hattars</a>
-    <br>
-        Harbormaster Rd Dock 1 must get keys first
-        <br>
-        South San Francisco, CA 94080
-        <br>
-  </td>
-
-  <td>
-    <div class="media va-container">
-<a href="/users/show/1896552" class="pull-left media-photo media-round">        <img alt="Thibault" height="50" src="https://a1.muscache.com/ac/users/1896552/profile_pic/1333453777/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Thibault" width="50" />
-</a>      <div class="va-top">
-        <a href="/users/show/1896552" class="text-normal">Thibault W</a>
-        <br />
+          +33 6 65 74 24 18
+          <br />
+          <a href='mailto:thomas-ce9gmtu9ordpgq9s@guest.airbnb.com'>
+            Contact by Email
+          </a>
+            <i id="anonymous-email-79890722-tooltip-trigger" class="icon icon-question"></i>
+
+  <div class="tooltip tooltip-bottom-middle" role="tooltip"
+       data-trigger="#anonymous-email-79890722-tooltip-trigger" data-sticky="true">
+    <p class="panel-body">
+      <a href="/help/article/694" target="_blank">
+        Learn more about anonymous emails
+      </a>
+    </p>
+  </div>
+
+
+          <br />
       </div>
     </div>
   </td>
@@ -3265,8 +1216,2489 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
     <ul class="list-unstyled">
+        <li>
+          <a href="/reservation/itinerary?code=424WBN" target="_blank">Print Confirmation</a>
+        </li>
+
+          <li>
+            <a href="/reservation/change?code=424WBN">Change or Cancel</a>
+          </li>
+          <li>
+            <a href="#" class="report-a-problem" data-prevent-default="true">Report A Problem</a>
+          </li>
       <li>
-        <a href="/messaging/qt_with/1896552">Message History</a>
+        <a href="/messaging/qt_with/32146111">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='72782885'
+  data-reservation-code='JAW3TC'
+  >
+  <td>
+    <span class="label label-green label-success">
+      Accepted
+    </span>
+  </td>
+
+  <td>
+    Jul 4 - 5, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/1615246" locale="en">Futon Steps Away From Six Corners</a>
+    <br>
+        1619 N Damen Ave 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/21408976" class="pull-left media-photo media-round">        <img alt="Marlena" height="50" src="https://a0.muscache.com/ac/users/21408976/profile_pic/1413076253/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Marlena" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/21408976" class="text-normal">Marlena Beckschulte</a>
+        <br />
+        <a class="text-normal" href="/messaging/qt_with/21408976">
+          <i class="icon icon-envelope"></i>
+          Send Message
+        </a><br />
+          +49 157 775 51916
+          <br />
+          <a href='mailto:marlena-pfggd7e2kd82ck1y@guest.airbnb.com'>
+            Contact by Email
+          </a>
+            <i id="anonymous-email-72782885-tooltip-trigger" class="icon icon-question"></i>
+
+  <div class="tooltip tooltip-bottom-middle" role="tooltip"
+       data-trigger="#anonymous-email-72782885-tooltip-trigger" data-sticky="true">
+    <p class="panel-body">
+      <a href="/help/article/694" target="_blank">
+        Learn more about anonymous emails
+      </a>
+    </p>
+  </div>
+
+
+          <br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $92
+      total
+
+
+    <ul class="list-unstyled">
+        <li>
+          <a href="/reservation/itinerary?code=JAW3TC" target="_blank">Print Confirmation</a>
+        </li>
+
+          <li>
+            <a href="/reservation/change?code=JAW3TC">Change or Cancel</a>
+          </li>
+          <li>
+            <a href="#" class="report-a-problem" data-prevent-default="true">Report A Problem</a>
+          </li>
+      <li>
+        <a href="/messaging/qt_with/21408976">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='58771440'
+  data-reservation-code='5FPPC5'
+  >
+  <td>
+    <span class="label label-gray label-info">
+      Declined
+    </span>
+  </td>
+
+  <td>
+    Jul 3 - 6, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/1615246" locale="en">Futon Steps Away From Six Corners</a>
+    <br>
+        1619 N Damen Ave 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/28847322" class="pull-left media-photo media-round">        <img alt="Kristopher" height="50" src="https://a1.muscache.com/ac/users/28847322/profile_pic/1425637047/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Kristopher" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/28847322" class="text-normal">Kristopher K</a>
+        <br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $160
+      total
+
+
+    <ul class="list-unstyled">
+      <li>
+        <a href="/messaging/qt_with/28847322">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='68199431'
+  data-reservation-code='3T5XYR'
+  >
+  <td>
+    <span class="label label-green label-success">
+      Accepted
+    </span>
+  </td>
+
+  <td>
+    Jul 2 - 4, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/1615246" locale="en">Futon Steps Away From Six Corners</a>
+    <br>
+        1619 N Damen Ave 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/32719202" class="pull-left media-photo media-round">        <img alt="Hui Yin" height="50" src="https://a2.muscache.com/defaults/user_pic-50x50.png?v=2" title="Hui Yin" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/32719202" class="text-normal">Hui Yin Kong</a>
+        <br />
+        <a class="text-normal" href="/messaging/qt_with/32719202">
+          <i class="icon icon-envelope"></i>
+          Send Message
+        </a><br />
+          +65 9786 5907
+          <br />
+          <a href='mailto:huiyin-x4uwliexhmscaddi@guest.airbnb.com'>
+            Contact by Email
+          </a>
+            <i id="anonymous-email-68199431-tooltip-trigger" class="icon icon-question"></i>
+
+  <div class="tooltip tooltip-bottom-middle" role="tooltip"
+       data-trigger="#anonymous-email-68199431-tooltip-trigger" data-sticky="true">
+    <p class="panel-body">
+      <a href="/help/article/694" target="_blank">
+        Learn more about anonymous emails
+      </a>
+    </p>
+  </div>
+
+
+          <br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $187
+      total
+
+
+    <ul class="list-unstyled">
+        <li>
+          <a href="/reservation/itinerary?code=3T5XYR" target="_blank">Print Confirmation</a>
+        </li>
+
+          <li>
+            <a href="/reservation/change?code=3T5XYR">Change or Cancel</a>
+          </li>
+          <li>
+            <a href="#" class="report-a-problem" data-prevent-default="true">Report A Problem</a>
+          </li>
+      <li>
+        <a href="/messaging/qt_with/32719202">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='79231868'
+  data-reservation-code='SBM5BJ'
+  >
+  <td>
+    <span class="label label-green label-success">
+      Accepted
+    </span>
+  </td>
+
+  <td>
+    Jun 28 - Jul 1, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/1615246" locale="en">Futon Steps Away From Six Corners</a>
+    <br>
+        1619 N Damen Ave 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/15560167" class="pull-left media-photo media-round">        <img alt="Azitah" height="50" src="https://a0.muscache.com/ac/users/15560167/profile_pic/1426590121/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Azitah" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/15560167" class="text-normal">Azitah Ward</a>
+        <br />
+        <a class="text-normal" href="/messaging/qt_with/15560167">
+          <i class="icon icon-envelope"></i>
+          Send Message
+        </a><br />
+          +44 7446 322077
+          <br />
+          <a href='mailto:azitah-8peajhcrzh4sj4yw@guest.airbnb.com'>
+            Contact by Email
+          </a>
+            <i id="anonymous-email-79231868-tooltip-trigger" class="icon icon-question"></i>
+
+  <div class="tooltip tooltip-bottom-middle" role="tooltip"
+       data-trigger="#anonymous-email-79231868-tooltip-trigger" data-sticky="true">
+    <p class="panel-body">
+      <a href="/help/article/694" target="_blank">
+        Learn more about anonymous emails
+      </a>
+    </p>
+  </div>
+
+
+          <br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $150
+      total
+
+
+    <ul class="list-unstyled">
+        <li>
+          <a href="/reservation/itinerary?code=SBM5BJ" target="_blank">Print Confirmation</a>
+        </li>
+
+          <li>
+            <a href="/reservation/change?code=SBM5BJ">Change or Cancel</a>
+          </li>
+          <li>
+            <a href="#" class="report-a-problem" data-prevent-default="true">Report A Problem</a>
+          </li>
+      <li>
+        <a href="/messaging/qt_with/15560167">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='77544484'
+  data-reservation-code='JS9ZZF'
+  >
+  <td>
+    <span class="label label-green label-success">
+      Accepted
+    </span>
+  </td>
+
+  <td>
+    Jun 26 - 28, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/1615246" locale="en">Futon Steps Away From Six Corners</a>
+    <br>
+        1619 N Damen Ave 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/739170" class="pull-left media-photo media-round">        <img alt="Amelia" height="50" src="https://a2.muscache.com/ac/users/739170/profile_pic/1309647018/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Amelia" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/739170" class="text-normal">Amelia Brandt</a>
+        <br />
+        <a class="text-normal" href="/messaging/qt_with/739170">
+          <i class="icon icon-envelope"></i>
+          Send Message
+        </a><br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $150
+      total
+
+
+    <ul class="list-unstyled">
+        <li>
+          <a href="/reservation/itinerary?code=JS9ZZF" target="_blank">Print Confirmation</a>
+        </li>
+
+          <li>
+            <a href="#" class="report-a-problem" data-prevent-default="true">Report A Problem</a>
+          </li>
+      <li>
+        <a href="/messaging/qt_with/739170">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='78029700'
+  data-reservation-code='AEDHCC'
+  >
+  <td>
+    <span class="label label-green label-success">
+      Accepted
+    </span>
+  </td>
+
+  <td>
+    Jun 24 - 25, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/1615246" locale="en">Futon Steps Away From Six Corners</a>
+    <br>
+        1619 N Damen Ave 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/21825308" class="pull-left media-photo media-round">        <img alt="Carlos Eduardo" height="50" src="https://a0.muscache.com/ac/users/21825308/profile_pic/1412009562/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Carlos Eduardo" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/21825308" class="text-normal">Carlos Eduardo Fernandes Paiva</a>
+        <br />
+        <a class="text-normal" href="/messaging/qt_with/21825308">
+          <i class="icon icon-envelope"></i>
+          Send Message
+        </a><br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $90
+      total
+
+
+    <ul class="list-unstyled">
+        <li>
+          <a href="/reservation/itinerary?code=AEDHCC" target="_blank">Print Confirmation</a>
+        </li>
+
+          <li>
+            <a href="#" class="report-a-problem" data-prevent-default="true">Report A Problem</a>
+          </li>
+      <li>
+        <a href="/messaging/qt_with/21825308">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='78551491'
+  data-reservation-code='8QDKAK'
+  >
+  <td>
+    <span class="label label-green label-success">
+      Accepted
+    </span>
+  </td>
+
+  <td>
+    Jun 23 - 24, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/1615246" locale="en">Futon Steps Away From Six Corners</a>
+    <br>
+        1619 N Damen Ave 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/33855779" class="pull-left media-photo media-round">        <img alt="Sofia" height="50" src="https://a2.muscache.com/ac/users/33855779/profile_pic/1432162175/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Sofia" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/33855779" class="text-normal">Sofia Chesnokova</a>
+        <br />
+        <a class="text-normal" href="/messaging/qt_with/33855779">
+          <i class="icon icon-envelope"></i>
+          Send Message
+        </a><br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $50
+      total
+
+
+    <ul class="list-unstyled">
+        <li>
+          <a href="/reservation/itinerary?code=8QDKAK" target="_blank">Print Confirmation</a>
+        </li>
+
+          <li>
+            <a href="#" class="report-a-problem" data-prevent-default="true">Report A Problem</a>
+          </li>
+      <li>
+        <a href="/messaging/qt_with/33855779">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='76350922'
+  data-reservation-code='CFPFBF'
+  >
+  <td>
+    <span class="label label-green label-success">
+      Accepted
+    </span>
+  </td>
+
+  <td>
+    Jun 22 - 23, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/1615246" locale="en">Futon Steps Away From Six Corners</a>
+    <br>
+        1619 N Damen Ave 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/14005209" class="pull-left media-photo media-round">        <img alt="Jing" height="50" src="https://a1.muscache.com/ac/users/14005209/profile_pic/1435205765/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Jing" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/14005209" class="text-normal">Jing Jiang</a>
+        <br />
+        <a class="text-normal" href="/messaging/qt_with/14005209">
+          <i class="icon icon-envelope"></i>
+          Send Message
+        </a><br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $55
+      total
+
+
+    <ul class="list-unstyled">
+        <li>
+          <a href="/reservation/itinerary?code=CFPFBF" target="_blank">Print Confirmation</a>
+        </li>
+
+          <li>
+            <a href="#" class="report-a-problem" data-prevent-default="true">Report A Problem</a>
+          </li>
+      <li>
+        <a href="/messaging/qt_with/14005209">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='77349247'
+  data-reservation-code='XE55QP'
+  >
+  <td>
+    <span class="label label-green label-success">
+      Accepted
+    </span>
+  </td>
+
+  <td>
+    Jun 20 - 22, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/1615246" locale="en">Futon Steps Away From Six Corners</a>
+    <br>
+        1619 N Damen Ave 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/3416981" class="pull-left media-photo media-round">        <img alt="Jeremy" height="50" src="https://a2.muscache.com/ac/users/3416981/profile_pic/1424832688/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Jeremy" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/3416981" class="text-normal">Jeremy Bergan</a>
+        <br />
+        <a class="text-normal" href="/messaging/qt_with/3416981">
+          <i class="icon icon-envelope"></i>
+          Send Message
+        </a><br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $145
+      total
+
+
+    <ul class="list-unstyled">
+        <li>
+          <a href="/reservation/itinerary?code=XE55QP" target="_blank">Print Confirmation</a>
+        </li>
+
+          <li>
+            <a href="#" class="report-a-problem" data-prevent-default="true">Report A Problem</a>
+          </li>
+      <li>
+        <a href="/messaging/qt_with/3416981">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='76299459'
+  data-reservation-code='BYYW8K'
+  >
+  <td>
+    <span class="label label-green label-success">
+      Accepted
+    </span>
+  </td>
+
+  <td>
+    Jun 19 - 20, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/1615246" locale="en">Futon Steps Away From Six Corners</a>
+    <br>
+        1619 N Damen Ave 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/7759299" class="pull-left media-photo media-round">        <img alt="Chelsea" height="50" src="https://a2.muscache.com/ac/users/7759299/profile_pic/1409007940/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Chelsea" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/7759299" class="text-normal">Chelsea Clark</a>
+        <br />
+        <a class="text-normal" href="/messaging/qt_with/7759299">
+          <i class="icon icon-envelope"></i>
+          Send Message
+        </a><br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $62
+      total
+
+
+    <ul class="list-unstyled">
+        <li>
+          <a href="/reservation/itinerary?code=BYYW8K" target="_blank">Print Confirmation</a>
+        </li>
+
+          <li>
+            <a href="#" class="report-a-problem" data-prevent-default="true">Report A Problem</a>
+          </li>
+      <li>
+        <a href="/messaging/qt_with/7759299">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='71055195'
+  data-reservation-code='T2MEPZ'
+  >
+  <td>
+    <span class="label label-gray label-info">
+      Declined
+    </span>
+  </td>
+
+  <td>
+    Jun 14 - 19, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/6328252" locale="en">Cozy Room in Wicker Park</a>
+    <br>
+        1619 North Damen Avenue 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/33781230" class="pull-left media-photo media-round">        <img alt="John" height="50" src="https://a1.muscache.com/ac/users/33781230/profile_pic/1432164777/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="John" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/33781230" class="text-normal">John V</a>
+        <br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $400
+      total
+
+
+    <ul class="list-unstyled">
+      <li>
+        <a href="/messaging/qt_with/33781230">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='70105407'
+  data-reservation-code='MC5F4Y'
+  >
+  <td>
+    <span class="label label-green label-success">
+      Accepted
+    </span>
+  </td>
+
+  <td>
+    Jun 12 - 18, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/1615246" locale="en">Futon Steps Away From Six Corners</a>
+    <br>
+        1619 N Damen Ave 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/31027920" class="pull-left media-photo media-round">        <img alt="Tavo" height="50" src="https://a2.muscache.com/ac/users/31027920/profile_pic/1428774733/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Tavo" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/31027920" class="text-normal">Tavo Ca</a>
+        <br />
+        <a class="text-normal" href="/messaging/qt_with/31027920">
+          <i class="icon icon-envelope"></i>
+          Send Message
+        </a><br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $350
+      total
+
+
+    <ul class="list-unstyled">
+        <li>
+          <a href="/reservation/itinerary?code=MC5F4Y" target="_blank">Print Confirmation</a>
+        </li>
+
+          <li>
+            <a href="#" class="report-a-problem" data-prevent-default="true">Report A Problem</a>
+          </li>
+      <li>
+        <a href="/messaging/qt_with/31027920">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='72329382'
+  data-reservation-code='9RQHM8'
+  >
+  <td>
+    <span class="label label-gray label-info">
+      Declined
+    </span>
+  </td>
+
+  <td>
+    Jun 12 - 14, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/6328252" locale="en">Cozy Room in Wicker Park</a>
+    <br>
+        1619 North Damen Avenue 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/1809086" class="pull-left media-photo media-round">        <img alt="Kristine" height="50" src="https://a1.muscache.com/ac/users/1809086/profile_pic/1431835306/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Kristine" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/1809086" class="text-normal">Kristine O</a>
+        <br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $206
+      total
+
+
+    <ul class="list-unstyled">
+      <li>
+        <a href="/messaging/qt_with/1809086">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='75691672'
+  data-reservation-code='HEZ9SP'
+  >
+  <td>
+    <span class="label label-green label-success">
+      Accepted
+    </span>
+  </td>
+
+  <td>
+    Jun 11 - 12, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/1615246" locale="en">Futon Steps Away From Six Corners</a>
+    <br>
+        1619 N Damen Ave 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/35502190" class="pull-left media-photo media-round">        <img alt="Aaron" height="50" src="https://a0.muscache.com/ac/users/35502190/profile_pic/1433971746/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Aaron" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/35502190" class="text-normal">Aaron Brumbaugh</a>
+        <br />
+        <a class="text-normal" href="/messaging/qt_with/35502190">
+          <i class="icon icon-envelope"></i>
+          Send Message
+        </a><br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $62
+      total
+
+
+    <ul class="list-unstyled">
+        <li>
+          <a href="/reservation/itinerary?code=HEZ9SP" target="_blank">Print Confirmation</a>
+        </li>
+
+          <li>
+            <a href="#" class="report-a-problem" data-prevent-default="true">Report A Problem</a>
+          </li>
+      <li>
+        <a href="/messaging/qt_with/35502190">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='74307976'
+  data-reservation-code='54YS8P'
+  >
+  <td>
+    <span class="label label-green label-success">
+      Accepted
+    </span>
+  </td>
+
+  <td>
+    Jun 8 - 10, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/1615246" locale="en">Futon Steps Away From Six Corners</a>
+    <br>
+        1619 N Damen Ave 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/35004747" class="pull-left media-photo media-round">        <img alt="Casey" height="50" src="https://a1.muscache.com/ac/users/35004747/profile_pic/1433440243/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Casey" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/35004747" class="text-normal">Casey Inguagiato</a>
+        <br />
+        <a class="text-normal" href="/messaging/qt_with/35004747">
+          <i class="icon icon-envelope"></i>
+          Send Message
+        </a><br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $104
+      total
+
+
+    <ul class="list-unstyled">
+        <li>
+          <a href="/reservation/itinerary?code=54YS8P" target="_blank">Print Confirmation</a>
+        </li>
+
+          <li>
+            <a href="#" class="report-a-problem" data-prevent-default="true">Report A Problem</a>
+          </li>
+      <li>
+        <a href="/messaging/qt_with/35004747">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='72342568'
+  data-reservation-code='2CXWAE'
+  >
+  <td>
+    <span class="label label-gray label-info">
+      Canceled
+    </span>
+  </td>
+
+  <td>
+    Jun 6 - 12, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/6328252" locale="en">Cozy Room in Wicker Park</a>
+    <br>
+        1619 North Damen Avenue 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/32302482" class="pull-left media-photo media-round">        <img alt="Sania" height="50" src="https://a2.muscache.com/ac/users/32302482/profile_pic/1432701889/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Sania" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/32302482" class="text-normal">Sania A</a>
+        <br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $600
+      total
+
+
+    <ul class="list-unstyled">
+      <li>
+        <a href="/messaging/qt_with/32302482">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='72336290'
+  data-reservation-code='MCNC8F'
+  >
+  <td>
+    <span class="label label-gray label-info">
+      Declined
+    </span>
+  </td>
+
+  <td>
+    Jun 6 - 14, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/6328252" locale="en">Cozy Room in Wicker Park</a>
+    <br>
+        1619 North Damen Avenue 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/32302482" class="pull-left media-photo media-round">        <img alt="Sania" height="50" src="https://a2.muscache.com/ac/users/32302482/profile_pic/1432701889/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Sania" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/32302482" class="text-normal">Sania A</a>
+        <br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $799
+      total
+
+
+    <ul class="list-unstyled">
+      <li>
+        <a href="/messaging/qt_with/32302482">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='69046857'
+  data-reservation-code='TX4N2M'
+  >
+  <td>
+    <span class="label label-green label-success">
+      Accepted
+    </span>
+  </td>
+
+  <td>
+    Jun 3 - 7, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/1615246" locale="en">Futon Steps Away From Six Corners</a>
+    <br>
+        1619 N Damen Ave 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/5313025" class="pull-left media-photo media-round">        <img alt="Christine" height="50" src="https://a2.muscache.com/ac/users/5313025/profile_pic/1431447675/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Christine" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/5313025" class="text-normal">Christine Huynh</a>
+        <br />
+        <a class="text-normal" href="/messaging/qt_with/5313025">
+          <i class="icon icon-envelope"></i>
+          Send Message
+        </a><br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $340
+      total
+
+
+    <ul class="list-unstyled">
+        <li>
+          <a href="/reservation/itinerary?code=TX4N2M" target="_blank">Print Confirmation</a>
+        </li>
+
+          <li>
+            <a href="#" class="report-a-problem" data-prevent-default="true">Report A Problem</a>
+          </li>
+      <li>
+        <a href="/messaging/qt_with/5313025">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='73655454'
+  data-reservation-code='HRXEHB'
+  >
+  <td>
+    <span class="label label-green label-success">
+      Accepted
+    </span>
+  </td>
+
+  <td>
+    Jun 2 - 3, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/1615246" locale="en">Futon Steps Away From Six Corners</a>
+    <br>
+        1619 N Damen Ave 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/24674684" class="pull-left media-photo media-round">        <img alt="Anna" height="50" src="https://a1.muscache.com/ac/users/24674684/profile_pic/1418403871/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Anna" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/24674684" class="text-normal">Anna F</a>
+        <br />
+        <a class="text-normal" href="/messaging/qt_with/24674684">
+          <i class="icon icon-envelope"></i>
+          Send Message
+        </a><br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $45
+      total
+
+
+    <ul class="list-unstyled">
+        <li>
+          <a href="/reservation/itinerary?code=HRXEHB" target="_blank">Print Confirmation</a>
+        </li>
+
+          <li>
+            <a href="#" class="report-a-problem" data-prevent-default="true">Report A Problem</a>
+          </li>
+      <li>
+        <a href="/messaging/qt_with/24674684">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='66852600'
+  data-reservation-code='FJ4ZDM'
+  >
+  <td>
+    <span class="label label-green label-success">
+      Accepted
+    </span>
+  </td>
+
+  <td>
+    May 30 - Jun 1, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/1615246" locale="en">Futon Steps Away From Six Corners</a>
+    <br>
+        1619 N Damen Ave 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/32195807" class="pull-left media-photo media-round">        <img alt="Gabriel" height="50" src="https://a2.muscache.com/defaults/user_pic-50x50.png?v=2" title="Gabriel" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/32195807" class="text-normal">Gabriel Vallejo</a>
+        <br />
+        <a class="text-normal" href="/messaging/qt_with/32195807">
+          <i class="icon icon-envelope"></i>
+          Send Message
+        </a><br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $176
+      total
+
+
+    <ul class="list-unstyled">
+        <li>
+          <a href="/reservation/itinerary?code=FJ4ZDM" target="_blank">Print Confirmation</a>
+        </li>
+
+      <li>
+        <a href="/messaging/qt_with/32195807">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='71657222'
+  data-reservation-code='MBSQYS'
+  >
+  <td>
+    <span class="label label-green label-success">
+      Accepted
+    </span>
+  </td>
+
+  <td>
+    May 28 - 30, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/1615246" locale="en">Futon Steps Away From Six Corners</a>
+    <br>
+        1619 N Damen Ave 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/33787976" class="pull-left media-photo media-round">        <img alt="Guanqun" height="50" src="https://a0.muscache.com/ac/users/33787976/profile_pic/1432096157/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Guanqun" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/33787976" class="text-normal">Guanqun Liu</a>
+        <br />
+        <a class="text-normal" href="/messaging/qt_with/33787976">
+          <i class="icon icon-envelope"></i>
+          Send Message
+        </a><br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $151
+      total
+
+
+    <ul class="list-unstyled">
+        <li>
+          <a href="/reservation/itinerary?code=MBSQYS" target="_blank">Print Confirmation</a>
+        </li>
+
+      <li>
+        <a href="/messaging/qt_with/33787976">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='72097370'
+  data-reservation-code='K4FXC3'
+  >
+  <td>
+    <span class="label label-gray label-info">
+      Declined
+    </span>
+  </td>
+
+  <td>
+    May 28 - 31, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/6543719" locale="en">Entire home near western stop</a>
+    <br>
+        2215 N Campbell Ave
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/17608884" class="pull-left media-photo media-round">        <img alt="Arunkumar" height="50" src="https://a2.muscache.com/ac/users/17608884/profile_pic/1421089982/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Arunkumar" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/17608884" class="text-normal">Arunkumar A</a>
+        <br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $658
+      total
+
+
+    <ul class="list-unstyled">
+      <li>
+        <a href="/messaging/qt_with/17608884">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='70101774'
+  data-reservation-code='W2QWB8'
+  >
+  <td>
+    <span class="label label-green label-success">
+      Accepted
+    </span>
+  </td>
+
+  <td>
+    May 26 - 28, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/1615246" locale="en">Futon Steps Away From Six Corners</a>
+    <br>
+        1619 N Damen Ave 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/33435901" class="pull-left media-photo media-round">        <img alt="German" height="50" src="https://a1.muscache.com/ac/users/33435901/profile_pic/1431790699/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="German" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/33435901" class="text-normal">German Rodriguez</a>
+        <br />
+        <a class="text-normal" href="/messaging/qt_with/33435901">
+          <i class="icon icon-envelope"></i>
+          Send Message
+        </a><br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $104
+      total
+
+
+    <ul class="list-unstyled">
+        <li>
+          <a href="/reservation/itinerary?code=W2QWB8" target="_blank">Print Confirmation</a>
+        </li>
+
+      <li>
+        <a href="/messaging/qt_with/33435901">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='70610918'
+  data-reservation-code='K2SBAC'
+  >
+  <td>
+    <span class="label label-green label-success">
+      Accepted
+    </span>
+  </td>
+
+  <td>
+    May 24 - 25, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/1615246" locale="en">Futon Steps Away From Six Corners</a>
+    <br>
+        1619 N Damen Ave 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/10231526" class="pull-left media-photo media-round">        <img alt="Candice" height="50" src="https://a2.muscache.com/ac/users/10231526/profile_pic/1427830561/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Candice" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/10231526" class="text-normal">Candice Lvrn</a>
+        <br />
+        <a class="text-normal" href="/messaging/qt_with/10231526">
+          <i class="icon icon-envelope"></i>
+          Send Message
+        </a><br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $70
+      total
+
+
+    <ul class="list-unstyled">
+        <li>
+          <a href="/reservation/itinerary?code=K2SBAC" target="_blank">Print Confirmation</a>
+        </li>
+
+      <li>
+        <a href="/messaging/qt_with/10231526">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='66939735'
+  data-reservation-code='NT9PS4'
+  >
+  <td>
+    <span class="label label-green label-success">
+      Accepted
+    </span>
+  </td>
+
+  <td>
+    May 19 - 24, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/1615246" locale="en">Futon Steps Away From Six Corners</a>
+    <br>
+        1619 N Damen Ave 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/32299228" class="pull-left media-photo media-round">        <img alt="Jiaying" height="50" src="https://a2.muscache.com/defaults/user_pic-50x50.png?v=2" title="Jiaying" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/32299228" class="text-normal">Jiaying Zhu</a>
+        <br />
+        <a class="text-normal" href="/messaging/qt_with/32299228">
+          <i class="icon icon-envelope"></i>
+          Send Message
+        </a><br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $350
+      total
+
+
+    <ul class="list-unstyled">
+        <li>
+          <a href="/reservation/itinerary?code=NT9PS4" target="_blank">Print Confirmation</a>
+        </li>
+
+      <li>
+        <a href="/messaging/qt_with/32299228">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='65966274'
+  data-reservation-code='8K2YPY'
+  >
+  <td>
+    <span class="label label-green label-success">
+      Accepted
+    </span>
+  </td>
+
+  <td>
+    May 16 - 19, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/1615246" locale="en">Futon Steps Away From Six Corners</a>
+    <br>
+        1619 N Damen Ave 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/31942187" class="pull-left media-photo media-round">        <img alt="Stephanos" height="50" src="https://a2.muscache.com/ac/users/31942187/profile_pic/1430020505/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Stephanos" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/31942187" class="text-normal">Stephanos Kythreotis</a>
+        <br />
+        <a class="text-normal" href="/messaging/qt_with/31942187">
+          <i class="icon icon-envelope"></i>
+          Send Message
+        </a><br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $248
+      total
+
+
+    <ul class="list-unstyled">
+        <li>
+          <a href="/reservation/itinerary?code=8K2YPY" target="_blank">Print Confirmation</a>
+        </li>
+
+      <li>
+        <a href="/messaging/qt_with/31942187">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='69010639'
+  data-reservation-code='SPY9XB'
+  >
+  <td>
+    <span class="label label-gray label-info">
+      Declined
+    </span>
+  </td>
+
+  <td>
+    May 16 - 17, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/6328252" locale="en">Cozy Room in Wicker Park</a>
+    <br>
+        1619 North Damen Avenue 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/33119551" class="pull-left media-photo media-round">        <img alt="Santiago" height="50" src="https://a1.muscache.com/ac/users/33119551/profile_pic/1431367694/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Santiago" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/33119551" class="text-normal">Santiago R</a>
+        <br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $80
+      total
+
+
+    <ul class="list-unstyled">
+      <li>
+        <a href="/messaging/qt_with/33119551">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='69036829'
+  data-reservation-code='95Y3RN'
+  >
+  <td>
+    <span class="label label-green label-success">
+      Accepted
+    </span>
+  </td>
+
+  <td>
+    May 13 - 14, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/5637327" locale="en">Bag Storage</a>
+    <br>
+        1619 North Damen Avenue 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/33129728" class="pull-left media-photo media-round">        <img alt="Yoo-Kyong" height="50" src="https://a1.muscache.com/ac/users/33129728/profile_pic/1431370614/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Yoo-Kyong" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/33129728" class="text-normal">Yoo-Kyong Kim</a>
+        <br />
+        <a class="text-normal" href="/messaging/qt_with/33129728">
+          <i class="icon icon-envelope"></i>
+          Send Message
+        </a><br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $10
+      total
+
+
+    <ul class="list-unstyled">
+        <li>
+          <a href="/reservation/itinerary?code=95Y3RN" target="_blank">Print Confirmation</a>
+        </li>
+
+      <li>
+        <a href="/messaging/qt_with/33129728">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='68786297'
+  data-reservation-code='RPAASF'
+  >
+  <td>
+    <span class="label label-green label-success">
+      Accepted
+    </span>
+  </td>
+
+  <td>
+    May 13 - 16, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/1615246" locale="en">Futon Steps Away From Six Corners</a>
+    <br>
+        1619 N Damen Ave 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/31625217" class="pull-left media-photo media-round">        <img alt="Abraham" height="50" src="https://a2.muscache.com/ac/users/31625217/profile_pic/1429584488/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Abraham" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/31625217" class="text-normal">Abraham Delgado Román</a>
+        <br />
+        <a class="text-normal" href="/messaging/qt_with/31625217">
+          <i class="icon icon-envelope"></i>
+          Send Message
+        </a><br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $155
+      total
+
+
+    <ul class="list-unstyled">
+        <li>
+          <a href="/reservation/itinerary?code=RPAASF" target="_blank">Print Confirmation</a>
+        </li>
+
+      <li>
+        <a href="/messaging/qt_with/31625217">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='67144230'
+  data-reservation-code='8YFZDR'
+  >
+  <td>
+    <span class="label label-green label-success">
+      Accepted
+    </span>
+  </td>
+
+  <td>
+    May 9 - 10, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/5637327" locale="en">Bag Storage</a>
+    <br>
+        1619 North Damen Avenue 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/6215076" class="pull-left media-photo media-round">        <img alt="Xaviercito" height="50" src="https://a2.muscache.com/ac/users/6215076/profile_pic/1404169531/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Xaviercito" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/6215076" class="text-normal">Xaviercito Alemán</a>
+        <br />
+        <a class="text-normal" href="/messaging/qt_with/6215076">
+          <i class="icon icon-envelope"></i>
+          Send Message
+        </a><br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $10
+      total
+
+
+    <ul class="list-unstyled">
+        <li>
+          <a href="/reservation/itinerary?code=8YFZDR" target="_blank">Print Confirmation</a>
+        </li>
+
+      <li>
+        <a href="/messaging/qt_with/6215076">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='67194853'
+  data-reservation-code='YCR33Y'
+  >
+  <td>
+    <span class="label label-green label-success">
+      Accepted
+    </span>
+  </td>
+
+  <td>
+    May 9 - 12, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/1615246" locale="en">Futon Steps Away From Six Corners</a>
+    <br>
+        1619 N Damen Ave 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/32411139" class="pull-left media-photo media-round">        <img alt="Kim" height="50" src="https://a1.muscache.com/ac/users/32411139/profile_pic/1430571853/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Kim" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/32411139" class="text-normal">Kim Bo</a>
+        <br />
+        <a class="text-normal" href="/messaging/qt_with/32411139">
+          <i class="icon icon-envelope"></i>
+          Send Message
+        </a><br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $152
+      total
+
+
+    <ul class="list-unstyled">
+        <li>
+          <a href="/reservation/itinerary?code=YCR33Y" target="_blank">Print Confirmation</a>
+        </li>
+
+      <li>
+        <a href="/messaging/qt_with/32411139">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='68426580'
+  data-reservation-code='WXXM48'
+  >
+  <td>
+    <span class="label label-green label-success">
+      Accepted
+    </span>
+  </td>
+
+  <td>
+    May 8 - 9, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/5637327" locale="en">Bag Storage</a>
+    <br>
+        1619 North Damen Avenue 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/9581383" class="pull-left media-photo media-round">        <img alt="Cora" height="50" src="https://a1.muscache.com/ac/users/9581383/profile_pic/1430324447/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Cora" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/9581383" class="text-normal">Cora Lively</a>
+        <br />
+        <a class="text-normal" href="/messaging/qt_with/9581383">
+          <i class="icon icon-envelope"></i>
+          Send Message
+        </a><br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $10
+      total
+
+
+    <ul class="list-unstyled">
+        <li>
+          <a href="/reservation/itinerary?code=WXXM48" target="_blank">Print Confirmation</a>
+        </li>
+
+      <li>
+        <a href="/messaging/qt_with/9581383">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='60994292'
+  data-reservation-code='KYEZ85'
+  >
+  <td>
+    <span class="label label-green label-success">
+      Accepted
+    </span>
+  </td>
+
+  <td>
+    May 7 - 8, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/1615246" locale="en">Futon Steps Away From Six Corners</a>
+    <br>
+        1619 N Damen Ave 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/30101755" class="pull-left media-photo media-round">        <img alt="Yunhwa" height="50" src="https://a2.muscache.com/defaults/user_pic-50x50.png?v=2" title="Yunhwa" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/30101755" class="text-normal">Yunhwa Park</a>
+        <br />
+        <a class="text-normal" href="/messaging/qt_with/30101755">
+          <i class="icon icon-envelope"></i>
+          Send Message
+        </a><br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $50
+      total
+
+
+    <ul class="list-unstyled">
+        <li>
+          <a href="/reservation/itinerary?code=KYEZ85" target="_blank">Print Confirmation</a>
+        </li>
+
+      <li>
+        <a href="/messaging/qt_with/30101755">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='68098473'
+  data-reservation-code='RM5PWC'
+  >
+  <td>
+    <span class="label label-green label-success">
+      Accepted
+    </span>
+  </td>
+
+  <td>
+    May 6 - 7, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/1615246" locale="en">Futon Steps Away From Six Corners</a>
+    <br>
+        1619 N Damen Ave 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/3362315" class="pull-left media-photo media-round">        <img alt="Fabrizio" height="50" src="https://a2.muscache.com/ac/users/3362315/profile_pic/1430257615/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Fabrizio" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/3362315" class="text-normal">Fabrizio Ciccone</a>
+        <br />
+        <a class="text-normal" href="/messaging/qt_with/3362315">
+          <i class="icon icon-envelope"></i>
+          Send Message
+        </a><br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $68
+      total
+
+
+    <ul class="list-unstyled">
+        <li>
+          <a href="/reservation/itinerary?code=RM5PWC" target="_blank">Print Confirmation</a>
+        </li>
+
+      <li>
+        <a href="/messaging/qt_with/3362315">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='67514733'
+  data-reservation-code='ACXS9S'
+  >
+  <td>
+    <span class="label label-green label-success">
+      Accepted
+    </span>
+  </td>
+
+  <td>
+    May 5 - 6, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/1615246" locale="en">Futon Steps Away From Six Corners</a>
+    <br>
+        1619 N Damen Ave 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/25164802" class="pull-left media-photo media-round">        <img alt="Gavin" height="50" src="https://a0.muscache.com/ac/users/25164802/profile_pic/1430711913/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Gavin" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/25164802" class="text-normal">Gavin Salisbury</a>
+        <br />
+        <a class="text-normal" href="/messaging/qt_with/25164802">
+          <i class="icon icon-envelope"></i>
+          Send Message
+        </a><br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $68
+      total
+
+
+    <ul class="list-unstyled">
+        <li>
+          <a href="/reservation/itinerary?code=ACXS9S" target="_blank">Print Confirmation</a>
+        </li>
+
+      <li>
+        <a href="/messaging/qt_with/25164802">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='67244244'
+  data-reservation-code='BPKB9D'
+  >
+  <td>
+    <span class="label label-gray label-info">
+      Declined
+    </span>
+  </td>
+
+  <td>
+    May 2 - 3, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/5814988" locale="en">Private Room in Wicker Park </a>
+    <br>
+        1619 North Damen Avenue 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/27181948" class="pull-left media-photo media-round">        <img alt="Megan" height="50" src="https://a1.muscache.com/ac/users/27181948/profile_pic/1423016390/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Megan" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/27181948" class="text-normal">Megan N</a>
+        <br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $85
+      total
+
+
+    <ul class="list-unstyled">
+      <li>
+        <a href="/messaging/qt_with/27181948">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='61319236'
+  data-reservation-code='Q2JX38'
+  >
+  <td>
+    <span class="label label-green label-success">
+      Accepted
+    </span>
+  </td>
+
+  <td>
+    May 1 - 4, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/1615246" locale="en">Futon Steps Away From Six Corners</a>
+    <br>
+        1619 N Damen Ave 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/18947077" class="pull-left media-photo media-round">        <img alt="Diego" height="50" src="https://a0.muscache.com/ac/users/18947077/profile_pic/1406426022/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Diego" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/18947077" class="text-normal">Diego Franco</a>
+        <br />
+        <a class="text-normal" href="/messaging/qt_with/18947077">
+          <i class="icon icon-envelope"></i>
+          Send Message
+        </a><br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $160
+      total
+
+
+    <ul class="list-unstyled">
+        <li>
+          <a href="/reservation/itinerary?code=Q2JX38" target="_blank">Print Confirmation</a>
+        </li>
+
+      <li>
+        <a href="/messaging/qt_with/18947077">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='66185731'
+  data-reservation-code='DE3T5A'
+  >
+  <td>
+    <span class="label label-green label-success">
+      Accepted
+    </span>
+  </td>
+
+  <td>
+    Apr 28 - May 1, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/1615246" locale="en">Futon Steps Away From Six Corners</a>
+    <br>
+        1619 N Damen Ave 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/10102336" class="pull-left media-photo media-round">        <img alt="Yeiri" height="50" src="https://a1.muscache.com/ac/users/10102336/profile_pic/1384801023/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Yeiri" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/10102336" class="text-normal">Yeiri Garcia Cuello</a>
+        <br />
+        <a class="text-normal" href="/messaging/qt_with/10102336">
+          <i class="icon icon-envelope"></i>
+          Send Message
+        </a><br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $111
+      total
+
+
+    <ul class="list-unstyled">
+        <li>
+          <a href="/reservation/itinerary?code=DE3T5A" target="_blank">Print Confirmation</a>
+        </li>
+
+      <li>
+        <a href="/messaging/qt_with/10102336">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='64709315'
+  data-reservation-code='QXJQ99'
+  >
+  <td>
+    <span class="label label-green label-success">
+      Accepted
+    </span>
+  </td>
+
+  <td>
+    Apr 25 - 27, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/1615246" locale="en">Futon Steps Away From Six Corners</a>
+    <br>
+        1619 N Damen Ave 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/12694251" class="pull-left media-photo media-round">        <img alt="Andrew" height="50" src="https://a2.muscache.com/ac/users/12694251/profile_pic/1407100376/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Andrew" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/12694251" class="text-normal">Andrew Kim</a>
+        <br />
+        <a class="text-normal" href="/messaging/qt_with/12694251">
+          <i class="icon icon-envelope"></i>
+          Send Message
+        </a><br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $115
+      total
+
+
+    <ul class="list-unstyled">
+        <li>
+          <a href="/reservation/itinerary?code=QXJQ99" target="_blank">Print Confirmation</a>
+        </li>
+
+      <li>
+        <a href="/messaging/qt_with/12694251">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='64717170'
+  data-reservation-code='CQ9TYD'
+  >
+  <td>
+    <span class="label label-green label-success">
+      Accepted
+    </span>
+  </td>
+
+  <td>
+    Apr 22 - 25, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/1615246" locale="en">Futon Steps Away From Six Corners</a>
+    <br>
+        1619 N Damen Ave 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/31489489" class="pull-left media-photo media-round">        <img alt="Diego" height="50" src="https://a2.muscache.com/defaults/user_pic-50x50.png?v=2" title="Diego" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/31489489" class="text-normal">Diego Pons</a>
+        <br />
+        <a class="text-normal" href="/messaging/qt_with/31489489">
+          <i class="icon icon-envelope"></i>
+          Send Message
+        </a><br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $155
+      total
+
+
+    <ul class="list-unstyled">
+        <li>
+          <a href="/reservation/itinerary?code=CQ9TYD" target="_blank">Print Confirmation</a>
+        </li>
+
+      <li>
+        <a href="/messaging/qt_with/31489489">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='65254455'
+  data-reservation-code='KDEYYA'
+  >
+  <td>
+    <span class="label label-green label-success">
+      Accepted
+    </span>
+  </td>
+
+  <td>
+    Apr 21 - 22, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/1615246" locale="en">Futon Steps Away From Six Corners</a>
+    <br>
+        1619 N Damen Ave 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/8245591" class="pull-left media-photo media-round">        <img alt="Kevin" height="50" src="https://a1.muscache.com/ac/users/8245591/profile_pic/1377221152/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Kevin" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/8245591" class="text-normal">Kevin Hollman</a>
+        <br />
+        <a class="text-normal" href="/messaging/qt_with/8245591">
+          <i class="icon icon-envelope"></i>
+          Send Message
+        </a><br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $40
+      total
+
+
+    <ul class="list-unstyled">
+        <li>
+          <a href="/reservation/itinerary?code=KDEYYA" target="_blank">Print Confirmation</a>
+        </li>
+
+      <li>
+        <a href="/messaging/qt_with/8245591">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='64332806'
+  data-reservation-code='2JEESC'
+  >
+  <td>
+    <span class="label label-green label-success">
+      Accepted
+    </span>
+  </td>
+
+  <td>
+    Apr 19 - 20, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/1615246" locale="en">Futon Steps Away From Six Corners</a>
+    <br>
+        1619 N Damen Ave 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/17343479" class="pull-left media-photo media-round">        <img alt="Jordan" height="50" src="https://a2.muscache.com/ac/users/17343479/profile_pic/1427832424/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Jordan" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/17343479" class="text-normal">Jordan Gass-Poore&#x27;</a>
+        <br />
+        <a class="text-normal" href="/messaging/qt_with/17343479">
+          <i class="icon icon-envelope"></i>
+          Send Message
+        </a><br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $50
+      total
+
+
+    <ul class="list-unstyled">
+        <li>
+          <a href="/reservation/itinerary?code=2JEESC" target="_blank">Print Confirmation</a>
+        </li>
+
+      <li>
+        <a href="/messaging/qt_with/17343479">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='60446182'
+  data-reservation-code='NTDMEN'
+  >
+  <td>
+    <span class="label label-green label-success">
+      Accepted
+    </span>
+  </td>
+
+  <td>
+    Apr 17 - 19, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/1615246" locale="en">Futon Steps Away From Six Corners</a>
+    <br>
+        1619 N Damen Ave 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/28858229" class="pull-left media-photo media-round">        <img alt="Eunjeong" height="50" src="https://a2.muscache.com/ac/users/28858229/profile_pic/1426430801/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Eunjeong" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/28858229" class="text-normal">Eunjeong Kim</a>
+        <br />
+        <a class="text-normal" href="/messaging/qt_with/28858229">
+          <i class="icon icon-envelope"></i>
+          Send Message
+        </a><br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $110
+      total
+
+
+    <ul class="list-unstyled">
+        <li>
+          <a href="/reservation/itinerary?code=NTDMEN" target="_blank">Print Confirmation</a>
+        </li>
+
+      <li>
+        <a href="/messaging/qt_with/28858229">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='63623048'
+  data-reservation-code='MXESD9'
+  >
+  <td>
+    <span class="label label-green label-success">
+      Accepted
+    </span>
+  </td>
+
+  <td>
+    Apr 14 - 17, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/1615246" locale="en">Futon Steps Away From Six Corners</a>
+    <br>
+        1619 N Damen Ave 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/25378571" class="pull-left media-photo media-round">        <img alt="Kh" height="50" src="https://a1.muscache.com/ac/users/25378571/profile_pic/1428459237/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Kh" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/25378571" class="text-normal">Kh Suh</a>
+        <br />
+        <a class="text-normal" href="/messaging/qt_with/25378571">
+          <i class="icon icon-envelope"></i>
+          Send Message
+        </a><br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $150
+      total
+
+
+    <ul class="list-unstyled">
+        <li>
+          <a href="/reservation/itinerary?code=MXESD9" target="_blank">Print Confirmation</a>
+        </li>
+
+      <li>
+        <a href="/messaging/qt_with/25378571">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='58800807'
+  data-reservation-code='AXQXF8'
+  >
+  <td>
+    <span class="label label-gray label-info">
+      Canceled
+    </span>
+  </td>
+
+  <td>
+    Apr 4 - 11, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/1615246" locale="en">Futon Steps Away From Six Corners</a>
+    <br>
+        1619 N Damen Ave 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/5820987" class="pull-left media-photo media-round">        <img alt="Melannie" height="50" src="https://a2.muscache.com/ac/users/5820987/profile_pic/1426139738/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Melannie" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/5820987" class="text-normal">Melannie M</a>
+        <br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $260
+      total
+
+
+    <ul class="list-unstyled">
+      <li>
+        <a href="/messaging/qt_with/5820987">Message History</a>
+      </li>
+    </ul>
+
+  </td>
+</tr>
+
+          <tr class='reservation'
+  data-reservation-id='62181804'
+  data-reservation-code='ARDCYF'
+  >
+  <td>
+    <span class="label label-green label-success">
+      Accepted
+    </span>
+  </td>
+
+  <td>
+    Apr 4 - 12, 2015
+    <br>
+    <a href="https://www.airbnb.com/rooms/1615246" locale="en">Futon Steps Away From Six Corners</a>
+    <br>
+        1619 N Damen Ave 3F
+        <br>
+        Chicago, IL 60647
+        <br>
+  </td>
+
+  <td>
+    <div class="media va-container">
+<a href="/users/show/29282375" class="pull-left media-photo media-round">        <img alt="Dhaval" height="50" src="https://a1.muscache.com/ac/users/29282375/profile_pic/1428094716/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=50:*&amp;output-format=jpg&amp;output-quality=70" title="Dhaval" width="50" />
+</a>      <div class="va-top">
+        <a href="/users/show/29282375" class="text-normal">Dhaval Bhavsar</a>
+        <br />
+        <a class="text-normal" href="/messaging/qt_with/29282375">
+          <i class="icon icon-envelope"></i>
+          Send Message
+        </a><br />
+      </div>
+    </div>
+  </td>
+
+  <td>
+      $320
+      total
+
+
+    <ul class="list-unstyled">
+        <li>
+          <a href="/reservation/itinerary?code=ARDCYF" target="_blank">Print Confirmation</a>
+        </li>
+
+      <li>
+        <a href="/messaging/qt_with/29282375">Message History</a>
       </li>
     </ul>
 
@@ -3278,7 +3710,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="row">
           <div class="col-12">
             <div class="pull-right">
-              <div class="pagination pagination-responsive" include_current_page="true"><ul class="list-unstyled"> <li class="active"><a rel="start" href="/my_reservations?all=1&amp;page=1">1</a></li> <li><a rel="next" href="/my_reservations?all=1&amp;page=2">2</a></li> <li class="next next_page"><a rel="next" href="/my_reservations?all=1&amp;page=2"><span class="screen-reader-only">Next</span><i class="icon icon-caret-right"></i></a></li></ul></div>
+              <div class="pagination pagination-responsive" include_current_page="true"><ul class="list-unstyled"> <li class="active"><a rel="start" href="/my_reservations?all=1&amp;page=1">1</a></li> <li><a rel="next" href="/my_reservations?all=1&amp;page=2">2</a></li> <li><a href="/my_reservations?all=1&amp;page=3">3</a></li> <li class="next next_page"><a rel="next" href="/my_reservations?all=1&amp;page=2"><span class="screen-reader-only">Next</span><i class="icon icon-caret-right"></i></a></li></ul></div>
             </div>
           </div>
         </div>
@@ -3408,28 +3840,31 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       </div>
 
-    <meta content="{&quot;refund_success&quot;:&quot;You have successfully issued a refund for reservation %{code}.&quot;,&quot;refund_failure&quot;:&quot;There was a problem issuing a refund for reservation %{code}. Please try again.&quot;,&quot;confirm_refund&quot;:&quot;Please confirm your refund of %{price_string} to %{guest_name}.&quot;,&quot;report-a-problem.heading&quot;:&quot;Report a Problem&quot;,&quot;report-a-problem.request-money-from-guest&quot;:&quot;You can request money from your guest using the Resolution Center. Most hosts and guests come to an agreement without needing to involve Airbnb.&quot;,&quot;report-a-problem.start-resolutions-tool&quot;:&quot;Visit Resolution Center&quot;,&quot;report-a-problem.alternative&quot;:&quot;Airbnb’s Host Guarantee provides protection in the rare event you’re unable to come to an agreement with your guest.  To see if you’re eligible, visit the &lt;a href=&#x27;/incidents/new&#x27;&gt;Host Guarantee payment request form&lt;/a&gt;.&quot;,&quot;Password&quot;:&quot;Password&quot;,&quot;users.Confirm_Password_to_Continue&quot;:&quot;Confirm Password to Continue&quot;,&quot;users.Confirm_Password&quot;:&quot;Confirm Password&quot;,&quot;users.Cancel&quot;:&quot;Cancel&quot;,&quot;users.Please_enter_your_Airbnb_password_to_continue.&quot;:&quot;For your security, please enter your Airbnb password to continue.&quot;,&quot;user.signup.forgot_password&quot;:&quot;Forgot password?&quot;,&quot;users.Confirm_Facebook_Password&quot;:&quot;Confirm Facebook Password&quot;,&quot;home&quot;:&quot;Home&quot;,&quot;download_the_app&quot;:&quot;Download the App&quot;,&quot;sign_up&quot;:&quot;Sign Up&quot;,&quot;log_in&quot;:&quot;Log In&quot;,&quot;alerts&quot;:&quot;Alerts&quot;,&quot;inbox&quot;:&quot;Inbox&quot;,&quot;discover&quot;:&quot;Discover&quot;,&quot;search&quot;:&quot;Search&quot;,&quot;how_it_works&quot;:&quot;How it Works&quot;,&quot;help&quot;:&quot;Help&quot;,&quot;invite_friends&quot;:&quot;Invite Friends&quot;,&quot;logout&quot;:&quot;Log Out&quot;,&quot;name&quot;:&quot;User&quot;,&quot;photography&quot;:&quot;Photography&quot;,&quot;your_trips&quot;:&quot;Your Trips&quot;,&quot;close&quot;:&quot;Close&quot;,&quot;where_are_you_going&quot;:&quot;Where are you going?&quot;,&quot;checkin&quot;:&quot;Check in&quot;,&quot;checkout&quot;:&quot;Check out&quot;,&quot;number_of_guests&quot;:&quot;Number of guests&quot;,&quot;room_type_0&quot;:&quot;Entire home/apt&quot;,&quot;room_type_1&quot;:&quot;Private room&quot;,&quot;room_type_2&quot;:&quot;Shared room&quot;,&quot;find_a_place&quot;:&quot;Find a place&quot;,&quot;shared.x guests&quot;:&quot;%{smart_count} guest |||| %{smart_count} guests&quot;,&quot;guests&quot;:&quot;Guests&quot;,&quot;room_type&quot;:&quot;Room type&quot;,&quot;back&quot;:&quot;Back&quot;,&quot;visit the help center&quot;:&quot;Visit the Help Center&quot;,&quot;view this article in the help center&quot;:&quot;View this article in the Help Center&quot;,&quot;shared.Messages&quot;:&quot;Messages&quot;,&quot;shared.Notifications&quot;:&quot;Notifications&quot;,&quot;shared.See All&quot;:&quot;See all&quot;,&quot;shared.View Inbox&quot;:&quot;View Inbox&quot;,&quot;notifications.Read All Notifications&quot;:&quot;There is %{smart_count} notification waiting for you in your %{link_start}dashboard%{link_end}.||||There are %{smart_count} notifications waiting for you in your %{link_start}dashboard%{link_end}.&quot;,&quot;notifications.Read All Messages&quot;:&quot;No new messages. You’re all caught up!&quot;,&quot;notifications.Error&quot;:&quot;Sorry, we can’t load new messages right now. %{link_start}View Inbox%{link_end}&quot;,&quot;nothing_here_yet&quot;:&quot;Nothing Here Yet.&quot;,&quot;check_back_for_listings&quot;:&quot;Check back to see all the listings that caught your eye.&quot;,&quot;see_all&quot;:&quot;See All&quot;,&quot;error_retrieving&quot;:&quot;There was an error retrieving your recently viewed listings. Please try again later.&quot;,&quot;airlock.title&quot;:&quot;Security Check&quot;,&quot;airlock.phone_verification.title&quot;:&quot;Phone Verification&quot;,&quot;airlock.phone_verification.option_selection.title&quot;:&quot;Help us keep your account secure.&quot;,&quot;airlock.phone_verification.listing_activate.option_selection.title&quot;:&quot;We need you to confirm this change.&quot;,&quot;airlock.phone_verification.payout_create.option_selection.title&quot;:&quot;We need you to confirm this change.&quot;,&quot;airlock.phone_verification.option_selection.description&quot;:&quot;We want to confirm that it’s really you who’s trying to access your account. To do that, we’ll send a code to a phone you’ve previously verified on Airbnb.&quot;,&quot;airlock.phone_verification.listing_activate.option_selection.description&quot;:&quot;We want to confirm that it’s really you who’s trying to add a listing.  To do that, we’ll send a code to a phone you’ve previously verified on Airbnb.&quot;,&quot;airlock.phone_verification.payout_create.option_selection.description&quot;:&quot;We want to confirm that it’s really you who’s trying to add a payout method.  To do that, we’ll send a code to a phone you’ve previously verified on Airbnb.&quot;,&quot;airlock.phone_verification.option_selection.how&quot;:&quot;How should we send the code?&quot;,&quot;airlock.phone_verification.option_selection.where&quot;:&quot;Where should we send the code?&quot;,&quot;airlock.phone_verification.response.title&quot;:&quot;Enter your 4-digit code.&quot;,&quot;airlock.phone_verification.We sent a code to your phone number&quot;:&quot;We sent a code to your phone number ending in %{last_four_digits}.&quot;,&quot;airlock.phone_verification.Depending on your provider&quot;:&quot;Depending on your provider, it may take a few minutes to arrive.&quot;,&quot;airlock.phone_verification.We will wait right here&quot;:&quot;We’ll wait right here.&quot;,&quot;airlock.phone_verification.Send me a text message&quot;:&quot;Send me a text message (SMS)&quot;,&quot;airlock.phone_verification.Call me&quot;:&quot;Call me&quot;,&quot;airlock.api_error&quot;:&quot;Something went wrong while processing your request. Please try again.&quot;,&quot;airlock.phone_verification.Phone number ending in&quot;:&quot;Phone number ending in %{last_four}&quot;,&quot;airlock.phone_verification.Enter Your Code&quot;:&quot;Enter Your Code&quot;,&quot;airlock.phone_verification.response.invalid&quot;:&quot;Looks like you entered the code incorrectly.&quot;,&quot;airlock.account_disabled.introduction.title&quot;:&quot;Account Disabled&quot;,&quot;airlock.account_disabled.introduction.introduction&quot;:&quot;To help protect your information, we’ve temporarily blocked your Airbnb account.&quot;,&quot;airlock.account_disabled.introduction.description&quot;:&quot;To restore access, send an email to account.disabled@airbnb.com from an email address associated with your Airbnb account.&quot;,&quot;airlock.no_phone_access.introduction.title&quot;:&quot;Emailing us will take longer.&quot;,&quot;airlock.no_phone_access.introduction.introduction&quot;:&quot;For security reasons, having Airbnb manually confirm this change can take 1-2 days. Email us at &lt;a href=\&quot;mailto:account.disabled@airbnb.com\&quot;&gt;account.disabled@airbnb.com&lt;/a&gt; from an address associated with your account and we’ll take it from there.&quot;,&quot;airlock.no_phone_access.introduction.tip.title&quot;:&quot;Make this update faster with your phone&quot;,&quot;airlock.no_phone_access.introduction.tip.description&quot;:&quot;If you’re traveling or your phone’s just out of reach, wait until you get it back and try to make this update again.&quot;,&quot;airlock.no_phone_access.Send Me a Code&quot;:&quot;Send Me a Code&quot;,&quot;airlock.no_phone_access.Email Airbnb&quot;:&quot;Email Airbnb&quot;,&quot;airlock.contact_us.response.title&quot;:&quot;Contact Us&quot;,&quot;airlock.contact_us.response.description&quot;:&quot;For your security, we would like to further verify your account.  Please contact us at &lt;a href=\&quot;mailto:account.disabled@airbnb.com\&quot;&gt;account.disabled@airbnb.com&lt;/a&gt;.&quot;,&quot;airlock.introduction&quot;:&quot;In order to continue, we ask that you complete a few challenges.&quot;,&quot;airlock.Get Started&quot;:&quot;Get Started&quot;,&quot;airlock.Continue&quot;:&quot;Continue&quot;,&quot;airlock.Next&quot;:&quot;Next&quot;,&quot;airlock.Back&quot;:&quot;Back&quot;,&quot;airlock.success.Thanks&quot;:&quot;Thanks %{first_name}&quot;,&quot;airlock.success.You are done&quot;:&quot;You’re done! You can go back to what you were doing.&quot;,&quot;airlock.error.Oops!&quot;:&quot;Oops!&quot;,&quot;choose_language&quot;:&quot;Choose language&quot;,&quot;choose_currency&quot;:&quot;Choose currency&quot;,&quot;clear_dates&quot;:&quot;Clear Dates&quot;,&quot;datepicker_updated_years_ago&quot;:&quot;Updated %{smart_count} year ago |||| Updated %{smart_count} years ago&quot;,&quot;datepicker_updated_months_ago&quot;:&quot;Updated %{smart_count} month ago |||| Updated %{smart_count} months ago&quot;,&quot;datepicker_updated_days_ago&quot;:&quot;Updated %{smart_count} day ago |||| Updated %{smart_count} days ago&quot;,&quot;datepicker_updated_today&quot;:&quot;Updated today&quot;,&quot;datepicker_never_updated&quot;:&quot;Never updated&quot;,&quot;datepicker_min_nights&quot;:&quot;%{smart_count} night minimum stay |||| %{smart_count} night minimum stay&quot;,&quot;datepicker_min_nights_this_month&quot;:&quot;%{smart_count} night min. this month |||| %{smart_count} nights min. this month&quot;,&quot;datepicker_min_nights_varies&quot;:&quot;Minimum stay varies&quot;}" id="_bootstrap-phrases" />
-<meta content="{&quot;canonical_host&quot;:&quot;www.airbnb.com&quot;,&quot;language&quot;:&quot;en&quot;,&quot;locale&quot;:&quot;en&quot;,&quot;api_config&quot;:{&quot;baseUrl&quot;:&quot;https://www.airbnb.com/api&quot;,&quot;key&quot;:&quot;d306zoyjsyarp7ifhu67rjxn52tv0t20&quot;},&quot;deep_link&quot;:null,&quot;tracking_context&quot;:{&quot;source&quot;:&quot;monorail&quot;,&quot;platform&quot;:&quot;js&quot;,&quot;version&quot;:&quot;b13365e495af7a42c3025084d169264450afe9d6&quot;,&quot;controller&quot;:&quot;home&quot;,&quot;action&quot;:&quot;my_reservations&quot;,&quot;req_uuid&quot;:&quot;83a9862c-56f8-40e9-930a-86a39e6d401f&quot;,&quot;shardset&quot;:&quot;a0,a1,a2&quot;},&quot;no_flash_alerts&quot;:null,&quot;google_maps_url&quot;:&quot;https://maps.googleapis.com/maps/api/js?language=en&amp;region=US&amp;sensor=false&amp;v=3.13&amp;libraries=places&amp;client=gme-airbnbinc&amp;channel=monorail-prod&quot;,&quot;open_street_map_url&quot;:&quot;https://api.tiles.mapbox.com/mapbox.js/v2.1.4/mapbox.js&quot;}" id="_bootstrap-layout-init" />
+    <div id="gmap-preload" class="hide"></div>
+    
+    <meta content="{&quot;refund_success&quot;:&quot;You have successfully issued a refund for reservation %{code}.&quot;,&quot;refund_failure&quot;:&quot;There was a problem issuing a refund for reservation %{code}. Please try again.&quot;,&quot;confirm_refund&quot;:&quot;Please confirm your refund of %{price_string} to %{guest_name}.&quot;,&quot;report-a-problem.heading&quot;:&quot;Report a Problem&quot;,&quot;report-a-problem.request-money-from-guest&quot;:&quot;You can request money from your guest using the Resolution Center. Most hosts and guests come to an agreement without needing to involve Airbnb.&quot;,&quot;report-a-problem.start-resolutions-tool&quot;:&quot;Visit Resolution Center&quot;,&quot;report-a-problem.alternative&quot;:&quot;Airbnb’s Host Guarantee provides protection in the rare event you’re unable to come to an agreement with your guest.  To see if you’re eligible, visit the &lt;a href=&#x27;/incidents/new&#x27;&gt;Host Guarantee payment request form&lt;/a&gt;.&quot;,&quot;Password&quot;:&quot;Password&quot;,&quot;users.Confirm_Password_to_Continue&quot;:&quot;Confirm Password to Continue&quot;,&quot;users.Confirm_Password&quot;:&quot;Confirm Password&quot;,&quot;users.Cancel&quot;:&quot;Cancel&quot;,&quot;users.Please_enter_your_Airbnb_password_to_continue.&quot;:&quot;For your security, please enter your Airbnb password to continue.&quot;,&quot;user.signup.forgot_password&quot;:&quot;Forgot password?&quot;,&quot;users.Confirm_Facebook_Password&quot;:&quot;Confirm Facebook Password&quot;,&quot;home&quot;:&quot;Home&quot;,&quot;download_the_app&quot;:&quot;Download the App&quot;,&quot;sign_up&quot;:&quot;Sign Up&quot;,&quot;log_in&quot;:&quot;Log In&quot;,&quot;alerts&quot;:&quot;Alerts&quot;,&quot;inbox&quot;:&quot;Inbox&quot;,&quot;discover&quot;:&quot;Discover&quot;,&quot;search&quot;:&quot;Search&quot;,&quot;how_it_works&quot;:&quot;How it Works&quot;,&quot;help&quot;:&quot;Help&quot;,&quot;invite_friends&quot;:&quot;Invite Friends&quot;,&quot;logout&quot;:&quot;Log Out&quot;,&quot;name&quot;:&quot;User&quot;,&quot;photography&quot;:&quot;Photography&quot;,&quot;your_trips&quot;:&quot;Your Trips&quot;,&quot;close&quot;:&quot;Close&quot;,&quot;where_are_you_going&quot;:&quot;Where are you going?&quot;,&quot;checkin&quot;:&quot;Check in&quot;,&quot;checkout&quot;:&quot;Check out&quot;,&quot;number_of_guests&quot;:&quot;Number of guests&quot;,&quot;room_type_0&quot;:&quot;Entire home/apt&quot;,&quot;room_type_1&quot;:&quot;Private room&quot;,&quot;room_type_2&quot;:&quot;Shared room&quot;,&quot;find_a_place&quot;:&quot;Find a place&quot;,&quot;shared.x guests&quot;:&quot;%{smart_count} guest |||| %{smart_count} guests&quot;,&quot;guests&quot;:&quot;Guests&quot;,&quot;room_type&quot;:&quot;Room type&quot;,&quot;Visit the Help Center&quot;:&quot;Visit the Help Center&quot;,&quot;Help&quot;:&quot;Help&quot;,&quot;view this article in the help center&quot;:&quot;View this article in the Help Center&quot;,&quot;shared.Messages&quot;:&quot;Messages&quot;,&quot;shared.Notifications&quot;:&quot;Notifications&quot;,&quot;shared.See All&quot;:&quot;See all&quot;,&quot;shared.View Inbox&quot;:&quot;View Inbox&quot;,&quot;notifications.Read All Notifications&quot;:&quot;There is %{smart_count} notification waiting for you in your %{link_start}dashboard%{link_end}.||||There are %{smart_count} notifications waiting for you in your %{link_start}dashboard%{link_end}.&quot;,&quot;notifications.Read All Messages&quot;:&quot;No new messages. You’re all caught up!&quot;,&quot;notifications.Error&quot;:&quot;Sorry, we can’t load new messages right now. %{link_start}View Inbox%{link_end}&quot;,&quot;nothing_here_yet&quot;:&quot;Nothing Here Yet.&quot;,&quot;check_back_for_listings&quot;:&quot;Check back to see all the listings that caught your eye.&quot;,&quot;see_all&quot;:&quot;See All&quot;,&quot;error_retrieving&quot;:&quot;There was an error retrieving your recently viewed listings. Please try again later.&quot;,&quot;airlock.title&quot;:&quot;Security Check&quot;,&quot;airlock.phone_verification.title&quot;:&quot;Phone Verification&quot;,&quot;airlock.phone_verification.option_selection.title&quot;:&quot;Help us keep your account secure.&quot;,&quot;airlock.phone_verification.listing_activate.option_selection.title&quot;:&quot;We need you to confirm this change.&quot;,&quot;airlock.phone_verification.payout_create.option_selection.title&quot;:&quot;We need you to confirm this change.&quot;,&quot;airlock.phone_verification.option_selection.description&quot;:&quot;We want to confirm that it’s really you who’s trying to access your account. To do that, we’ll send a code to a phone you’ve previously verified on Airbnb.&quot;,&quot;airlock.phone_verification.listing_activate.option_selection.description&quot;:&quot;We want to confirm that it’s really you who’s trying to add a listing.  To do that, we’ll send a code to a phone you’ve previously verified on Airbnb.&quot;,&quot;airlock.phone_verification.payout_create.option_selection.description&quot;:&quot;We want to confirm that it’s really you who’s trying to add a payout method.  To do that, we’ll send a code to a phone you’ve previously verified on Airbnb.&quot;,&quot;airlock.phone_verification.option_selection.how&quot;:&quot;How should we send the code?&quot;,&quot;airlock.phone_verification.option_selection.where&quot;:&quot;Where should we send the code?&quot;,&quot;airlock.phone_verification.response.title&quot;:&quot;Enter your 4-digit code.&quot;,&quot;airlock.phone_verification.We sent a code to your phone number&quot;:&quot;We sent a code to your phone number ending in %{last_four_digits}.&quot;,&quot;airlock.phone_verification.Depending on your provider&quot;:&quot;Depending on your provider, it may take a few minutes to arrive.&quot;,&quot;airlock.phone_verification.We will wait right here&quot;:&quot;We’ll wait right here.&quot;,&quot;airlock.phone_verification.Send me a text message&quot;:&quot;Send me a text message (SMS)&quot;,&quot;airlock.phone_verification.Call me&quot;:&quot;Call me&quot;,&quot;airlock.api_error&quot;:&quot;Something went wrong while processing your request. Please try again.&quot;,&quot;airlock.phone_verification.Phone number ending in&quot;:&quot;Phone number ending in %{last_four}&quot;,&quot;airlock.phone_verification.Enter Your Code&quot;:&quot;Enter Your Code&quot;,&quot;airlock.phone_verification.response.invalid&quot;:&quot;Looks like you entered the code incorrectly.&quot;,&quot;airlock.account_disabled.introduction.title&quot;:&quot;Account Disabled&quot;,&quot;airlock.account_disabled.introduction.introduction&quot;:&quot;To help protect your information, we’ve temporarily blocked your Airbnb account.&quot;,&quot;airlock.account_disabled.introduction.description&quot;:&quot;To restore access, send an email to account.disabled@airbnb.com from an email address associated with your Airbnb account.&quot;,&quot;airlock.no_phone_access.introduction.title&quot;:&quot;Emailing us will take longer.&quot;,&quot;airlock.no_phone_access.introduction.introduction&quot;:&quot;For security reasons, having Airbnb manually confirm this change can take 1-2 days. Email us at &lt;a href=\&quot;mailto:account.disabled@airbnb.com\&quot;&gt;account.disabled@airbnb.com&lt;/a&gt; from an address associated with your account and we’ll take it from there.&quot;,&quot;airlock.no_phone_access.introduction.tip.title&quot;:&quot;Make this update faster with your phone&quot;,&quot;airlock.no_phone_access.introduction.tip.description&quot;:&quot;If you’re traveling or your phone’s just out of reach, wait until you get it back and try to make this update again.&quot;,&quot;airlock.no_phone_access.Send Me a Code&quot;:&quot;Send Me a Code&quot;,&quot;airlock.no_phone_access.Email Airbnb&quot;:&quot;Email Airbnb&quot;,&quot;airlock.contact_us.response.title&quot;:&quot;Contact Us&quot;,&quot;airlock.contact_us.response.description&quot;:&quot;For your security, we would like to further verify your account.  Please contact us at &lt;a href=\&quot;mailto:account.disabled@airbnb.com\&quot;&gt;account.disabled@airbnb.com&lt;/a&gt;.&quot;,&quot;airlock.introduction&quot;:&quot;In order to continue, we ask that you complete a few challenges.&quot;,&quot;airlock.Get Started&quot;:&quot;Get Started&quot;,&quot;airlock.Continue&quot;:&quot;Continue&quot;,&quot;airlock.Next&quot;:&quot;Next&quot;,&quot;airlock.Back&quot;:&quot;Back&quot;,&quot;airlock.success.Thanks&quot;:&quot;Thanks %{first_name}&quot;,&quot;airlock.success.You are done&quot;:&quot;You’re done! You can go back to what you were doing.&quot;,&quot;airlock.error.Oops!&quot;:&quot;Oops!&quot;,&quot;choose_language&quot;:&quot;Choose language&quot;,&quot;choose_currency&quot;:&quot;Choose currency&quot;,&quot;clear_dates&quot;:&quot;Clear Dates&quot;,&quot;datepicker_updated_years_ago&quot;:&quot;Updated %{smart_count} year ago |||| Updated %{smart_count} years ago&quot;,&quot;datepicker_updated_months_ago&quot;:&quot;Updated %{smart_count} month ago |||| Updated %{smart_count} months ago&quot;,&quot;datepicker_updated_days_ago&quot;:&quot;Updated %{smart_count} day ago |||| Updated %{smart_count} days ago&quot;,&quot;datepicker_updated_today&quot;:&quot;Updated today&quot;,&quot;datepicker_never_updated&quot;:&quot;Never updated&quot;,&quot;datepicker_min_nights&quot;:&quot;%{smart_count} night minimum stay |||| %{smart_count} night minimum stay&quot;,&quot;datepicker_min_nights_this_month&quot;:&quot;%{smart_count} night min. this month |||| %{smart_count} nights min. this month&quot;,&quot;datepicker_min_nights_varies&quot;:&quot;Minimum stay varies&quot;}" id="_bootstrap-phrases" />
+<meta content="{&quot;canonical_host&quot;:&quot;www.airbnb.com&quot;,&quot;language&quot;:&quot;en&quot;,&quot;locale&quot;:&quot;en&quot;,&quot;api_config&quot;:{&quot;baseUrl&quot;:&quot;https://www.airbnb.com/api&quot;,&quot;key&quot;:&quot;d306zoyjsyarp7ifhu67rjxn52tv0t20&quot;},&quot;deep_link&quot;:null,&quot;tracking_context&quot;:{&quot;source&quot;:&quot;monorail&quot;,&quot;platform&quot;:&quot;js&quot;,&quot;version&quot;:&quot;92afbd687e0fc1081aa09aead18702f1265f21a9&quot;,&quot;controller&quot;:&quot;home&quot;,&quot;action&quot;:&quot;my_reservations&quot;,&quot;req_uuid&quot;:&quot;1234c56b-e7d3-4158-a17c-62deae9e07ad&quot;,&quot;shardset&quot;:&quot;a0,a1,a2&quot;},&quot;no_flash_alerts&quot;:null,&quot;google_maps_url&quot;:&quot;https://maps.googleapis.com/maps/api/js?language=en&amp;region=US&amp;sensor=false&amp;v=3.13&amp;libraries=places&amp;client=gme-airbnbinc&amp;channel=monorail-prod&quot;,&quot;open_street_map_url&quot;:&quot;https://api.tiles.mapbox.com/mapbox.js/v2.1.4/mapbox.js&quot;,&quot;sift_key&quot;:&quot;5d704de7e8&quot;,&quot;pellet_id&quot;:&quot;kfgn8s24&quot;}" id="_bootstrap-layout-init" />
 <meta content="{&quot;data&quot;:{&quot;country&quot;:&quot;US&quot;,&quot;tld_country&quot;:&quot;US&quot;,&quot;currencies&quot;:{&quot;AED&quot;:{&quot;symbol&quot;:&quot;&amp;#1583;.&amp;#1573;&quot;,&quot;code_required&quot;:false,&quot;options&quot;:{&quot;unicode_symbol&quot;:&quot;ﺩ.ﺇ&quot;}},&quot;ARS&quot;:{&quot;symbol&quot;:&quot;$&quot;,&quot;code_required&quot;:true,&quot;options&quot;:null},&quot;AUD&quot;:{&quot;symbol&quot;:&quot;$&quot;,&quot;code_required&quot;:true,&quot;options&quot;:null},&quot;BRL&quot;:{&quot;symbol&quot;:&quot;R$&quot;,&quot;code_required&quot;:false,&quot;options&quot;:{&quot;space_between_price_and_symbol&quot;:true}},&quot;CAD&quot;:{&quot;symbol&quot;:&quot;$&quot;,&quot;code_required&quot;:true,&quot;options&quot;:null},&quot;CHF&quot;:{&quot;symbol&quot;:&quot;CHF&quot;,&quot;code_required&quot;:false,&quot;options&quot;:{&quot;position&quot;:&quot;after&quot;,&quot;space_between_price_and_symbol&quot;:true}},&quot;CNY&quot;:{&quot;symbol&quot;:&quot;&amp;yen;&quot;,&quot;code_required&quot;:false,&quot;options&quot;:{&quot;unicode_symbol&quot;:&quot;¥&quot;}},&quot;CRC&quot;:{&quot;symbol&quot;:&quot;&amp;#8353;&quot;,&quot;code_required&quot;:false,&quot;options&quot;:{&quot;unicode_symbol&quot;:&quot;₡&quot;}},&quot;CZK&quot;:{&quot;symbol&quot;:&quot;&amp;#75;&amp;#269;&quot;,&quot;code_required&quot;:false,&quot;options&quot;:{&quot;unicode_symbol&quot;:&quot;Kč&quot;}},&quot;DKK&quot;:{&quot;symbol&quot;:&quot;kr&quot;,&quot;code_required&quot;:true,&quot;options&quot;:{&quot;position&quot;:&quot;after&quot;,&quot;space_between_price_and_symbol&quot;:true,&quot;explicit_currency_not_aesthetic&quot;:true}},&quot;EUR&quot;:{&quot;symbol&quot;:&quot;&amp;euro;&quot;,&quot;code_required&quot;:false,&quot;options&quot;:{&quot;unicode_symbol&quot;:&quot;€&quot;,&quot;position&quot;:&quot;special&quot;}},&quot;GBP&quot;:{&quot;symbol&quot;:&quot;&amp;pound;&quot;,&quot;code_required&quot;:false,&quot;options&quot;:{&quot;unicode_symbol&quot;:&quot;£&quot;}},&quot;HKD&quot;:{&quot;symbol&quot;:&quot;$&quot;,&quot;code_required&quot;:true,&quot;options&quot;:null},&quot;HRK&quot;:{&quot;symbol&quot;:&quot;kn&quot;,&quot;code_required&quot;:false,&quot;options&quot;:null},&quot;HUF&quot;:{&quot;symbol&quot;:&quot;Ft&quot;,&quot;code_required&quot;:false,&quot;options&quot;:null},&quot;IDR&quot;:{&quot;symbol&quot;:&quot;Rp&quot;,&quot;code_required&quot;:false,&quot;options&quot;:null},&quot;ILS&quot;:{&quot;symbol&quot;:&quot;&amp;#8362;&quot;,&quot;code_required&quot;:false,&quot;options&quot;:{&quot;unicode_symbol&quot;:&quot;₪&quot;,&quot;space_between_price_and_symbol&quot;:true}},&quot;INR&quot;:{&quot;symbol&quot;:&quot;&amp;#8377;&quot;,&quot;code_required&quot;:false,&quot;options&quot;:{&quot;unicode_symbol&quot;:&quot;₹&quot;}},&quot;JPY&quot;:{&quot;symbol&quot;:&quot;&amp;yen;&quot;,&quot;code_required&quot;:false,&quot;options&quot;:{&quot;unicode_symbol&quot;:&quot;¥&quot;,&quot;space_between_price_and_symbol&quot;:true}},&quot;KRW&quot;:{&quot;symbol&quot;:&quot;&amp;#8361;&quot;,&quot;code_required&quot;:false,&quot;options&quot;:{&quot;unicode_symbol&quot;:&quot;₩&quot;}},&quot;MAD&quot;:{&quot;symbol&quot;:&quot;MAD&quot;,&quot;code_required&quot;:false,&quot;options&quot;:null},&quot;MXN&quot;:{&quot;symbol&quot;:&quot;$&quot;,&quot;code_required&quot;:true,&quot;options&quot;:null},&quot;MYR&quot;:{&quot;symbol&quot;:&quot;&amp;#82;&amp;#77;&quot;,&quot;code_required&quot;:false,&quot;options&quot;:{&quot;unicode_symbol&quot;:&quot;RM&quot;}},&quot;NOK&quot;:{&quot;symbol&quot;:&quot;kr&quot;,&quot;code_required&quot;:true,&quot;options&quot;:{&quot;position&quot;:&quot;after&quot;,&quot;space_between_price_and_symbol&quot;:true,&quot;explicit_currency_not_aesthetic&quot;:true}},&quot;NZD&quot;:{&quot;symbol&quot;:&quot;$&quot;,&quot;code_required&quot;:true,&quot;options&quot;:null},&quot;PEN&quot;:{&quot;symbol&quot;:&quot;&amp;#83;&amp;#47;&amp;#46;&quot;,&quot;code_required&quot;:false,&quot;options&quot;:{&quot;unicode_symbol&quot;:&quot;S/.&quot;}},&quot;PHP&quot;:{&quot;symbol&quot;:&quot;&amp;#8369;&quot;,&quot;code_required&quot;:false,&quot;options&quot;:{&quot;unicode_symbol&quot;:&quot;₱&quot;}},&quot;PLN&quot;:{&quot;symbol&quot;:&quot;z&amp;#22;&amp;#322;&quot;,&quot;code_required&quot;:false,&quot;options&quot;:{&quot;unicode_symbol&quot;:&quot;zł&quot;,&quot;position&quot;:&quot;after&quot;,&quot;space_between_price_and_symbol&quot;:true}},&quot;RON&quot;:{&quot;symbol&quot;:&quot;lei&quot;,&quot;code_required&quot;:false,&quot;options&quot;:null},&quot;RUB&quot;:{&quot;symbol&quot;:&quot;&amp;#1088;&quot;,&quot;code_required&quot;:false,&quot;options&quot;:{&quot;unicode_symbol&quot;:&quot;р&quot;,&quot;position&quot;:&quot;after&quot;}},&quot;SEK&quot;:{&quot;symbol&quot;:&quot;kr&quot;,&quot;code_required&quot;:true,&quot;options&quot;:{&quot;position&quot;:&quot;after&quot;,&quot;space_between_price_and_symbol&quot;:true,&quot;explicit_currency_not_aesthetic&quot;:true}},&quot;SGD&quot;:{&quot;symbol&quot;:&quot;$&quot;,&quot;code_required&quot;:true,&quot;options&quot;:null},&quot;THB&quot;:{&quot;symbol&quot;:&quot;&amp;#3647;&quot;,&quot;code_required&quot;:false,&quot;options&quot;:{&quot;unicode_symbol&quot;:&quot;฿&quot;}},&quot;TRY&quot;:{&quot;symbol&quot;:&quot;&amp;#84;&amp;#76;&quot;,&quot;code_required&quot;:false,&quot;options&quot;:{&quot;unicode_symbol&quot;:&quot;TL&quot;,&quot;position&quot;:&quot;after&quot;,&quot;space_between_price_and_symbol&quot;:true}},&quot;TWD&quot;:{&quot;symbol&quot;:&quot;$&quot;,&quot;code_required&quot;:true,&quot;options&quot;:null},&quot;USD&quot;:{&quot;symbol&quot;:&quot;$&quot;,&quot;code_required&quot;:false,&quot;options&quot;:null},&quot;VND&quot;:{&quot;symbol&quot;:&quot;&amp;#8363;&quot;,&quot;code_required&quot;:false,&quot;options&quot;:{&quot;unicode_symbol&quot;:&quot;₫&quot;}},&quot;ZAR&quot;:{&quot;symbol&quot;:&quot;R&quot;,&quot;code_required&quot;:true,&quot;options&quot;:null}},&quot;current_locale_name&quot;:&quot;English&quot;,&quot;languages&quot;:[{&quot;locale_name&quot;:&quot;Bahasa Indonesia&quot;,&quot;locale&quot;:&quot;id&quot;},{&quot;locale_name&quot;:&quot;Bahasa Melayu&quot;,&quot;locale&quot;:&quot;ms&quot;},{&quot;locale_name&quot;:&quot;Català&quot;,&quot;locale&quot;:&quot;ca&quot;},{&quot;locale_name&quot;:&quot;Dansk&quot;,&quot;locale&quot;:&quot;da&quot;},{&quot;locale_name&quot;:&quot;Deutsch&quot;,&quot;locale&quot;:&quot;de&quot;},{&quot;locale_name&quot;:&quot;English&quot;,&quot;locale&quot;:&quot;en&quot;},{&quot;locale_name&quot;:&quot;Español&quot;,&quot;locale&quot;:&quot;es&quot;},{&quot;locale_name&quot;:&quot;Eλληνικά&quot;,&quot;locale&quot;:&quot;el&quot;},{&quot;locale_name&quot;:&quot;Français&quot;,&quot;locale&quot;:&quot;fr&quot;},{&quot;locale_name&quot;:&quot;Italiano&quot;,&quot;locale&quot;:&quot;it&quot;},{&quot;locale_name&quot;:&quot;Magyar&quot;,&quot;locale&quot;:&quot;hu&quot;},{&quot;locale_name&quot;:&quot;Nederlands&quot;,&quot;locale&quot;:&quot;nl&quot;},{&quot;locale_name&quot;:&quot;Norsk&quot;,&quot;locale&quot;:&quot;no&quot;},{&quot;locale_name&quot;:&quot;Polski&quot;,&quot;locale&quot;:&quot;pl&quot;},{&quot;locale_name&quot;:&quot;Português&quot;,&quot;locale&quot;:&quot;pt&quot;},{&quot;locale_name&quot;:&quot;Suomi&quot;,&quot;locale&quot;:&quot;fi&quot;},{&quot;locale_name&quot;:&quot;Svenska&quot;,&quot;locale&quot;:&quot;sv&quot;},{&quot;locale_name&quot;:&quot;Türkçe&quot;,&quot;locale&quot;:&quot;tr&quot;},{&quot;locale_name&quot;:&quot;Íslenska&quot;,&quot;locale&quot;:&quot;is&quot;},{&quot;locale_name&quot;:&quot;Čeština&quot;,&quot;locale&quot;:&quot;cs&quot;},{&quot;locale_name&quot;:&quot;Русский&quot;,&quot;locale&quot;:&quot;ru&quot;},{&quot;locale_name&quot;:&quot;ภาษาไทย&quot;,&quot;locale&quot;:&quot;th&quot;},{&quot;locale_name&quot;:&quot;中文 (简体)&quot;,&quot;locale&quot;:&quot;zh&quot;},{&quot;locale_name&quot;:&quot;中文 (繁體)&quot;,&quot;locale&quot;:&quot;zh-TW&quot;},{&quot;locale_name&quot;:&quot;日本語&quot;,&quot;locale&quot;:&quot;ja&quot;},{&quot;locale_name&quot;:&quot;한국어&quot;,&quot;locale&quot;:&quot;ko&quot;}]}}" id="_bootstrap-i18n-init" />
 <meta content="{&quot;enabled&quot;:true,&quot;appId&quot;:&quot;138566025676&quot;,&quot;scope&quot;:&quot;email,user_birthday,user_likes,user_education_history,user_hometown,user_location,user_friends&quot;,&quot;sdkUrl&quot;:&quot;https://connect.facebook.net/en_US/sdk.js&quot;}" id="_bootstrap-facebook-init" />
-<meta content="{&quot;packages/field_guide.bundle.js&quot;:&quot;https://a0.muscache.com/airbnb/static/packages/field_guide.bundle-4b4ef57d36b99d9f54e191947c34675b.js&quot;,&quot;packages/airlock_modal.bundle.js&quot;:&quot;https://a0.muscache.com/airbnb/static/packages/airlock_modal.bundle-a5dbe2498d9887ab4d1549bf96b15d55.js&quot;}" id="_bootstrap-javascript_paths" />
+<meta content="{&quot;packages/field_guide.bundle.js&quot;:&quot;https://a0.muscache.com/airbnb/static/packages/field_guide.bundle-86b9e90dc1f3e98dbdfb7908687bdc39.js&quot;,&quot;packages/airlock_modal.bundle.js&quot;:&quot;https://a2.muscache.com/airbnb/static/packages/airlock_modal.bundle-7efe812f08fc3c0b1bebba40a77a827a.js&quot;,&quot;packages/profile_pic_upsell.js&quot;:&quot;https://a0.muscache.com/airbnb/static/packages/profile_pic_upsell-1e37b543f244b7b06a98a5bb2761b14f.js&quot;,&quot;packages/email_verification_app.js&quot;:&quot;https://a1.muscache.com/airbnb/static/packages/email_verification_app-803f83bbef8521a5d9177ceb7f22a10c.js&quot;}" id="_bootstrap-javascript_paths" />
 <meta content="false" id="_bootstrap-is-signup-prompt-page" />
 <meta content="{&quot;search.search_autocomplete_bounds&quot;:true}" id="_bootstrap-trebuchet" />
+<!--[if lt IE 9]>
+  <script src="https://a1.muscache.com/airbnb/static/packages/libs_jquery_1x-4ce2a17a12f5ef3d0c4dc29faa7549e2.js" type="text/javascript"></script>
+<![endif]-->
+<!--[if gte IE 9]><!-->
+  <script src="https://a0.muscache.com/airbnb/static/packages/libs_jquery_2x-6c93a95de4da5557389d4b79b04f310e.js" type="text/javascript"></script>
+<!--<![endif]-->
+<script src="https://a0.muscache.com/airbnb/static/packages/o2.1-b28cfa5f2f93bc4e9beea61380fdef4b.js" type="text/javascript"></script>
 
-    <div id="gmap-preload" class="hide"></div>
-    <!--[if lt IE 9]>
-      <script src="https://a2.muscache.com/airbnb/static/packages/libs_jquery_1x-607d5cba49e30689521c3cf0e108424b.js" type="text/javascript"></script>
-    <![endif]-->
-    <!--[if gte IE 9]><!-->
-      <script src="https://a0.muscache.com/airbnb/static/packages/libs_jquery_2x-f385e4d74c902b33ebd4bac3e3111598.js" type="text/javascript"></script>
-    <!--<![endif]-->
-    <script src="https://a1.muscache.com/airbnb/static/packages/o2.1-e9d096bf5771e5e17c6ed9dbd80c0545.js" type="text/javascript"></script>
-    <script src="https://a0.muscache.com/airbnb/static/packages/core.bundle-569e39b4ff489fb7abe4f3b4b1c23a76.js" type="text/javascript"></script>
 
-    <script>
+<script src="https://a2.muscache.com/airbnb/static/packages/core.bundle-272d95a93589edc6b45188f116ac5505.js" type="text/javascript"></script>
 
-      Airbnb.init();
+<script>
+
+  Airbnb.init();
 </script>
+
 
     <div id="fb-root"></div>
 
@@ -3439,5 +3874,5 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   </body>
 </html>
-<!-- ver. b13365e495af7a42c3025084d169264450afe9d6 -->
+<!-- ver. 92afbd687e0fc1081aa09aead18702f1265f21a9 -->
 
