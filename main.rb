@@ -108,16 +108,6 @@ page = agent.get('file:///home/wyatt/Apps/rubycal/main.html')
 
 reservations = page.search("tr.reservation")
 
-# num = 1
-# reservation = reservations[num]
-
- # reservations.each do |reservation|
- # 	reservation[num]
- # 	num +1
- # end
-
-
-
 reservations.each do  |reservation|
 	
 	cols = reservation.search("td").map(&:text)
@@ -127,7 +117,7 @@ reservations.each do  |reservation|
 	name =  cols[2]
 	price = cols[3]
 
-	if status.include?("Accepted") # Uf accpted reservation then it gets put it
+	if status.include?("Accepted") # If accpted reservation then it gets put it
 
 
 			# puts date_location
@@ -188,8 +178,8 @@ reservations.each do  |reservation|
 				event = results.data
 				puts "Event Created: #{event.id}"
 
-			rescue => e
-			e == "Unknown Error" ? puts "Success" : puts e  # Error that occured or success
+			rescue
+
 			results = client.execute(
 			
 			  :api_method => calendar_api.events.update,
